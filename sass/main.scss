@@ -59,7 +59,7 @@ em {
 	margin: 0 auto;
 }
 
-/*--------------TOP BAR -----------*/
+/*--------------TOP BAR-----------*/
 
 	.bar-top {
 		background-color: #707684;
@@ -105,7 +105,12 @@ em {
 			}
 		}	
 
-/*--------------SECTION NAV BAR -----------*/
+.menu-right a:hover {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*--------------SECTION NAV BAR-----------*/
 
 .costumesnav {
 	padding: 0 0 0.5em 0;
@@ -136,7 +141,7 @@ em {
 }
 
 
-/*--------------CONTACT BAR -----------*/
+/*--------------CONTACT BAR-----------*/
 
 .footer {
 	h3 {
@@ -146,40 +151,55 @@ em {
 	}
 	.contactlink {
 		text-align: center;
+		margin: 1.5em 0.2em;
 		li {
 			display: inline-block;
 		}
 		.icon {
 			height: 3em; 
 			width: 3em;
-			margin: 1.5em 0.2em;
+			line-height: 1em;
 		}
 
 		.em {
+			height: 6em;
+			width: 6em;
 			border-right: 0.1em solid black;
 			border-left: 0.1em solid black;
+			padding: 0 1em 0 1em;
+			position: relative;
+			top: 0.5em;
 		}
+
 		.phone {
 			display: none;
 		}
 
+		#phonenumber {
+			font: 300 1em Helvetica, sans-serif;
+			padding-right: 1em;
+			position: relative;
+			top: -1.0em;
+		}
 	}
 
 }
 
-/*--------------FOOTER -----------*/
+
+
+/*--------------FOOTER-----------*/
 .bar-bottom {
 	background-color: #707684;
 	overflow: hidden;
 	.sitenav {
 		width: 50%;
 		float: left;
+		line-height: 0.01em;
+		padding-left: 0.5em;
 		li {
-			line-height: 0.1em;
 			a {
 				color: white;
-				font: 100 0.9em 'Open Sans', Helvetica, sans-serif; /*18px*/
-				padding: 0 0.2em;
+				font: 100 0.8em 'Open Sans', Helvetica, sans-serif;
 			}
 		}
 	}
@@ -187,6 +207,7 @@ em {
 		width: 50%;
 		float: right;
 		text-align: right;
+		padding-right: 0.5em;
 		h3 {
 			color: white;
 			font: 100 1em Georgia, serif; 
@@ -194,17 +215,18 @@ em {
 		ul {
 			color: white;
 			font-size: 0.8em;
+			line-height: 1.5em;
 		}
 		a {
-				color: white;
-				font: 100 0.8em Georgia, serif;
-				padding: 0 0.2em;
-			}
+			color: white;
+			font: 100 0.8em Georgia, serif;
+			padding: 0 0.2em;
+		}
 	}	
 }
 
 
-/*--------------COSTUME HEADER -----------*/
+/*--------------COSTUME HEADER-----------*/
 .relativeheader {
 	position: relative;
 	margin-bottom: 0;
@@ -251,6 +273,39 @@ figure {
 	}
 }
 
+/*--------------COSTUME BODY-----------*/
+.intro {
+	padding: 1em 1.3em;
+}
 
+.costume-description {
+	img {
+		margin: 0;
+	}
+	#oberon-back {
+		width: 85%;
+		max-width: 40em;
+		margin: 0 auto;
+		img {
+			padding: 0 1em 0 1em;	
+		}
+	}
+	h4 {
+		font: 600 1em Georgia, serif;
+		text-transform: uppercase;
+		background-color: rgba(30, 150, 195, .8);
+		border-top: 0.6em solid blue;
+		border-color: rgba(6, 96, 130, .9);
+		padding-top: 0.4em;
+		margin-top: 0;
+	}
+	p {
+		font: 300 0.7em HelveticaNueue, Helvetica, sans-serif;
+		color: white;
+		background-color: rgba(30, 150, 195, .8);
+		padding: 0.8em 1em 1.5em 1em;
+		margin: 0 0 4em 0;
+	}
+}
 
 

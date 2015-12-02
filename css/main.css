@@ -51,7 +51,7 @@ em {
   width: 100%;
   margin: 0 auto; }
 
-/*--------------TOP BAR -----------*/
+/*--------------TOP BAR-----------*/
 .bar-top {
   background-color: #707684; }
 
@@ -85,7 +85,11 @@ em {
       line-height: 2em;
       padding: 0 0.2em; }
 
-/*--------------SECTION NAV BAR -----------*/
+.menu-right a:hover {
+  text-decoration: none;
+  text-transform: uppercase; }
+
+/*--------------SECTION NAV BAR-----------*/
 .costumesnav {
   padding: 0 0 0.5em 0;
   text-align: center;
@@ -108,55 +112,66 @@ em {
   letter-spacing: -0.02em;
   line-height: 1em; }
 
-/*--------------CONTACT BAR -----------*/
+/*--------------CONTACT BAR-----------*/
 .footer h3 {
   font: 500 1.7em Helvetica, sans-serif;
   text-align: center;
   margin-top: 3em; }
 .footer .contactlink {
-  text-align: center; }
+  text-align: center;
+  margin: 1.5em 0.2em; }
   .footer .contactlink li {
     display: inline-block; }
   .footer .contactlink .icon {
     height: 3em;
     width: 3em;
-    margin: 1.5em 0.2em; }
+    line-height: 1em; }
   .footer .contactlink .em {
+    height: 6em;
+    width: 6em;
     border-right: 0.1em solid black;
-    border-left: 0.1em solid black; }
+    border-left: 0.1em solid black;
+    padding: 0 1em 0 1em;
+    position: relative;
+    top: 0.5em; }
   .footer .contactlink .phone {
     display: none; }
+  .footer .contactlink #phonenumber {
+    font: 300 1em Helvetica, sans-serif;
+    padding-right: 1em;
+    position: relative;
+    top: -1.0em; }
 
-/*--------------FOOTER -----------*/
+/*--------------FOOTER-----------*/
 .bar-bottom {
   background-color: #707684;
   overflow: hidden; }
   .bar-bottom .sitenav {
     width: 50%;
-    float: left; }
-    .bar-bottom .sitenav li {
-      line-height: 0.1em; }
-      .bar-bottom .sitenav li a {
-        color: white;
-        font: 100 0.9em 'Open Sans', Helvetica, sans-serif;
-        /*18px*/
-        padding: 0 0.2em; }
+    float: left;
+    line-height: 0.01em;
+    padding-left: 0.5em; }
+    .bar-bottom .sitenav li a {
+      color: white;
+      font: 100 0.8em 'Open Sans', Helvetica, sans-serif; }
   .bar-bottom .socialize {
     width: 50%;
     float: right;
-    text-align: right; }
+    text-align: right;
+    padding-right: 0.5em; }
     .bar-bottom .socialize h3 {
       color: white;
       font: 100 1em Georgia, serif; }
     .bar-bottom .socialize ul {
       color: white;
-      font-size: 0.8em; }
+      font-size: 0.8em;
+      line-height: 1.5em; }
     .bar-bottom .socialize a {
       color: white;
       font: 100 0.8em Georgia, serif;
       padding: 0 0.2em; }
 
-/*--------------COSTUME HEADER -----------*/
+/*--------------COSTUME HEADER-----------*/
 .relativeheader {
   position: relative;
   margin-bottom: 0; }
@@ -194,5 +209,32 @@ figure figcaption {
     border-right: 0.1em solid black; }
   figure figcaption #photocredit {
     border: none; }
+
+/*--------------COSTUME BODY-----------*/
+.intro {
+  padding: 1em 1.3em; }
+
+.costume-description img {
+  margin: 0; }
+.costume-description #oberon-back {
+  width: 85%;
+  max-width: 40em;
+  margin: 0 auto; }
+  .costume-description #oberon-back img {
+    padding: 0 1em 0 1em; }
+.costume-description h4 {
+  font: 600 1em Georgia, serif;
+  text-transform: uppercase;
+  background-color: rgba(30, 150, 195, 0.8);
+  border-top: 0.6em solid blue;
+  border-color: rgba(6, 96, 130, 0.9);
+  padding-top: 0.4em;
+  margin-top: 0; }
+.costume-description p {
+  font: 300 0.7em HelveticaNueue, Helvetica, sans-serif;
+  color: white;
+  background-color: rgba(30, 150, 195, 0.8);
+  padding: 0.8em 1em 1.5em 1em;
+  margin: 0 0 4em 0; }
 
 /*# sourceMappingURL=main.css.map */
