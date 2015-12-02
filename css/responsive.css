@@ -1,3 +1,23 @@
+@media (min-width: 640px) {
+  /*--------------SECTION NAV BAR-----------*/
+  .costumesnav li {
+    display: inline-block;
+    padding: 1vw 0.3em; }
+    .costumesnav li a {
+      font-size: 0.9em; }
 
+  .costumenavhere {
+    font-size: 0.9em; }
+
+  /*--------------COSTUME HEADER-----------*/
+  figure figcaption li {
+    font-size: 0.9em;
+    padding: 0 0.5em; }
+
+  /*--------------COSTUME BODY-----------*/
+  .costume-description h4 {
+    font-size: 1.3em; }
+  .costume-description p {
+    font-size: 0.9em; } }
 
 /*# sourceMappingURL=responsive.css.map */
