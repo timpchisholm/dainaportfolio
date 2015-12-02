@@ -27,8 +27,13 @@ h2 {
 	color: #D5664D;
 }
 
+h4 {
+	padding: 0 0.5em;
+}
+
 p {
 	margin: 1em 0; /*16px*/
+	padding: 0 0.5em;
 }
 
 a {
@@ -64,7 +69,6 @@ em {
 			overflow: hidden;
 			height: 6.5em;
 			width: 100%;
-			box-shadow: 50px 50px 5px black;
 		}
 
 		.logo {
@@ -83,17 +87,17 @@ em {
 			.menu {
 				.navhere {
 					color: black;
-					font: 100 1.1em 'Open Sans', Helvetica, sans-serif; /*18px*/
+					font: 100 1.1em 'Open Sans', Helvetica, sans-serif; 
 			
 					padding: 0 0.2em;
-					border-bottom: 1em solid red;
+					border-bottom: 1em solid #ed1c24;
 				}
 				li {
 					display: inline-block;
 					padding: 0 0.2em;
 					a {
 						color: white;
-						font: 100 1.1em 'Open Sans', Helvetica, sans-serif; /*18px*/
+						font: 100 1.1em 'Open Sans', Helvetica, sans-serif; 
 						line-height: 2em;
 						padding: 0 0.2em;
 					}	
@@ -101,6 +105,35 @@ em {
 			}
 		}	
 
+/*--------------SECTION NAV BAR -----------*/
+
+.costumesnav {
+	padding: 0 0 0.5em 0;
+	text-align: center;
+	background-color: white;
+	h2 {
+		display: none;
+	}
+	li {
+		display: inline-block;
+		padding: 1vw 0.2em;
+		border-right: 0.01em solid black;
+		a {
+			color: black;
+			font: 400 2.3vw Helvetica, sans-serif; 
+			letter-spacing: -0.02em;
+			line-height: 1em;
+		}	
+	}	
+
+}
+
+.costumenavhere {
+	color: #00aeef;
+	font: 400 2.3vw Helvetica, sans-serif; 
+	letter-spacing: -0.02em;
+	line-height: 1em;
+}
 
 
 /*--------------CONTACT BAR -----------*/
@@ -169,3 +202,55 @@ em {
 			}
 	}	
 }
+
+
+/*--------------COSTUME HEADER -----------*/
+.relativeheader {
+	position: relative;
+	margin-bottom: 0;
+}
+.relativeheader img {
+	width: 100%;
+}
+.costumes {
+	position: absolute;
+  	top: 50%;
+  	left: -0.6%;
+  	width: 75%;
+  	height: 35%;
+  	z-index: 10;
+	font-weight: 600;
+	font-size: 10vw;
+	color: #035a11;
+	font-family: 'Arial Black', sans-serif;
+	line-height: 75%;
+	letter-spacing: -0.13em;
+	padding-top: 0.1em;
+	padding-right: 0;
+	background-color: rgba(200, 200, 200, .6);
+	margin-bottom: 0;
+		
+
+}
+
+figure {
+	figcaption {
+		margin: 0;
+		position: relative;
+		top: -0.5em;
+		text-align: right;
+		li {
+		font: 500 0.65em Helvetica, sans-serif;
+		display: inline-block;
+		padding: 0 0.3em;
+		border-right: 0.1em solid black;
+		}
+		#photocredit {
+			border: none;
+		}
+	}
+}
+
+
+
+
