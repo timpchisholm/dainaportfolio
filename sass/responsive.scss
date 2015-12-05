@@ -33,3 +33,178 @@
 		}
 	}
 }	
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+/*--------------TOP BAR-----------*/
+	.bar-top {
+
+		.nav {
+			height: 3.8em;
+		}
+	}
+
+	.logo {
+		float: left;
+		margin: 0;
+		padding-left: 0.5em;
+		}
+
+	.menu-right {
+		float: right;
+		padding-bottom: 0;
+		padding-top: 1.5em;
+		background-color: #707684;
+	}	
+
+	.bar-top .menu-right .menu .navhere {
+		font-size: 1.2em;
+		border-bottom: 0.4em solid #ed1c24;
+
+	}
+
+	.bar-top .menu-right .menu li a {
+		font-size: 1.2em;
+	}
+
+/*--------------SECTION NAV BAR-----------*/
+
+	.costumesnav {
+		text-align: right;
+	}
+
+/*--------------COSTUME BODY-----------*/
+
+	.intro {
+		font-size: 1.2em;
+	}
+
+
+	.costume-description {
+		height: 40em;
+		margin-top: 6em;
+	}
+
+	.costume-description .costume-explination {
+		position: static;
+	}
+
+/*--------------OBERON COSTUME BODY-----------*/
+
+	.costume-description #oberon-back {
+			max-width: 28em;
+			margin: 0;
+			text-align: right;
+			img {
+				text-align: right;
+				position: relative;
+				left: 17em;
+			}	
+		}
+
+	.costume-description .oberon-description {
+			position: relative;
+			top: -33em;
+			left: 3em;
+			width: 18em;
+		}
+
+	.costume-description .oberon-description .costume-explination h4 {
+			font-size: 1.5em;
+			border-top: 1.2em solid blue;
+			border-color: rgba(6, 96, 130, .9);
+			padding-top: 0.4em;
+		}
+
+	.costume-description .oberon-description .costume-explination p {
+		font-size: 1em;
+		line-height: 1.3em;
+		padding: 0.8em 1em 8.5em 1em;
+		margin: 0;
+	}
+
+/*--------------MECHANICAlS COSTUME BODY-----------*/
+	.costume-description #mechanicals-line {
+			max-width: 42em;
+			margin: 0 auto;
+		}
+
+	.costume-description .mechanicals-description {
+			position: relative;
+			top: -2.5em;
+			left: 4em;
+			width: 26em;
+		}
+
+	.costume-description .mechanicals-description .costume-explination h4 {
+			font-size: 1.5em;
+			border-top: 1.2em solid blue;
+			border-color: rgba(6, 96, 130, .7);
+			padding-top: 0.4em;
+		}
+
+	.costume-description .mechanicals-description .costume-explination p {
+		font-size: 1.1em;
+		line-height: 1.3em;
+		padding: 0.8em 1em 5.0em 1em;
+		margin: 0;
+	}
+/*--------------COURT COSTUME BODY-----------*/
+	.costume-description #theseus-court {
+			max-width: 42em;
+			margin: 0 auto;
+		}
+
+	.costume-description .theseus-description {
+			position: relative;
+			top: -2.8em;
+			left: 18.5em;
+			width: 26em;
+		}
+
+	.costume-description .theseus-description .costume-explination h4 {
+			font-size: 1.5em;
+			border-top: 1.2em solid blue;
+			border-color: rgba(6, 96, 130, .7);
+			padding-top: 0.4em;
+		}
+
+	.costume-description .theseus-description .costume-explination p {
+		font-size: 1.1em;
+		line-height: 1.3em;
+		padding: 0.8em 1em 5.0em 1em;
+		margin: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

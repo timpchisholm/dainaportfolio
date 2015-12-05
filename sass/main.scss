@@ -112,7 +112,7 @@ em {
 /*--------------SECTION NAV BAR-----------*/
 
 .costumesnav {
-	padding: 0 0 0.5em 0;
+
 	text-align: center;
 	background-color: white;
 	h2 {
@@ -278,9 +278,8 @@ figure {
 }
 
 .costume-description {
-	img {
-		margin: 0;
-	}
+
+
 	#oberon-back {
 		width: 85%;
 		max-width: 40em;
@@ -296,7 +295,6 @@ figure {
 			border-top: 0.6em solid blue;
 			border-color: rgba(6, 96, 130, .9);
 			padding-top: 0.4em;
-			margin-top: 0;
 		}
 		p {
 			font: 300 0.7em HelveticaNueue, Helvetica, sans-serif;
