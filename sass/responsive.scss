@@ -1,5 +1,12 @@
 @media (min-width: 640px) {
 	
+	strong {
+	font-weight: bold;
+	}
+
+	em {
+		font-style: italic;
+	}
 /*--------------SECTION NAV BAR-----------*/
 
 	.costumesnav {
@@ -60,14 +67,16 @@
 
 	.menu-right {
 		float: right;
+		position: relative;
+		bottom: 1em;
 		padding-bottom: 0;
-		padding-top: 1.5em;
 		background-color: #707684;
 	}	
 
 	.bar-top .menu-right .menu .navhere {
 		font-size: 1.2em;
-		border-bottom: 0.4em solid #ed1c24;
+		border-bottom: 0.4em solid white;
+		padding-top: 2em;
 
 	}
 
@@ -85,103 +94,116 @@
 
 	.intro {
 		font-size: 1.2em;
+		margin-bottom: 6em;
 	}
-
 
 	.costume-description {
-		height: 40em;
-		margin-top: 6em;
-	}
-
-	.costume-description .costume-explination {
-		position: static;
+		.costume-explination {
+			h4 {
+				font-size: 1.5em;
+				border-top: 1.2em solid blue;
+				border-color: rgba(6, 96, 130, .9);
+				padding-top: 0.4em;
+			}
+			p {
+				font-size: 1.1em;
+				line-height: 1.3em;
+				padding: 0.8em 1em 5.5em 1em;
+				margin: 0;
+			}
+		}
 	}
 
 /*--------------OBERON COSTUME BODY-----------*/
 
-	.costume-description #oberon-back {
-			max-width: 28em;
-			margin: 0;
-			text-align: right;
-			img {
-				text-align: right;
+	.the-fairies-costumes {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		margin-bottom: 8em;
+		.costume-description {
+			display: inline-block;
+			text-align: left;
+			#oberon-back {
+				float: left;
 				position: relative;
-				left: 17em;
+				left: 15em;
+				width: 66%;
+				img {
+					max-width: 32em;
+				}
+			}	
+			.oberon-description {
+				float: left;
+				position: relative;
+				left: -30em;
+				top: 3em;
+				width: 16em;
+
 			}	
 		}
-
-	.costume-description .oberon-description {
-			position: relative;
-			top: -33em;
-			left: 3em;
-			width: 18em;
-		}
-
-	.costume-description .oberon-description .costume-explination h4 {
-			font-size: 1.5em;
-			border-top: 1.2em solid blue;
-			border-color: rgba(6, 96, 130, .9);
-			padding-top: 0.4em;
-		}
-
-	.costume-description .oberon-description .costume-explination p {
-		font-size: 1.1em;
-		line-height: 1.3em;
-		padding: 0.8em 1em 8.5em 1em;
-		margin: 0;
 	}
 
 /*--------------MECHANICAlS COSTUME BODY-----------*/
-	.costume-description #mechanicals-line {
-			max-width: 42em;
-			margin: 0 auto;
-		}
 
-	.costume-description .mechanicals-description {
-			position: relative;
-			top: -2.5em;
-			left: 4em;
-			width: 26em;
-		}
+	.the-mechanicals-costumes {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		margin-bottom: 8em;
+		.costume-description {
+			width: 50em;
+			display: inline-block;
+			text-align: left;
+			#mechanicals-line {
+				float: left;
+				position: relative;
+				left: 2em;
+				width: 66%;
+				img {
+					max-width: 45em;
+				}
+			}	
+			.mechanicals-description {
+				float: left;
+				position: relative;
+				left: 5em;
+				top: -2.5em;
+				width: 26em;
 
-	.costume-description .mechanicals-description .costume-explination h4 {
-			font-size: 1.5em;
-			border-top: 1.2em solid blue;
-			border-color: rgba(6, 96, 130, .7);
-			padding-top: 0.4em;
+			}	
 		}
-
-	.costume-description .mechanicals-description .costume-explination p {
-		font-size: 1.1em;
-		line-height: 1.3em;
-		padding: 0.8em 1em 5.0em 1em;
-		margin: 0;
 	}
+
 /*--------------COURT COSTUME BODY-----------*/
-	.costume-description #theseus-court {
-			max-width: 42em;
-			margin: 0 auto;
-		}
 
-	.costume-description .theseus-description {
-			position: relative;
-			top: -2.8em;
-			left: 18.5em;
-			width: 26em;
-		}
+.the-court-costumes {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		margin-bottom: 8em;
+		.costume-description {
+			width: 50em;
+			display: inline-block;
+			text-align: left;
+			#theseus-court {
+				float: left;
+				position: relative;
+				left: 2em;
+				width: 66%;
+				img {
+					max-width: 45em;
+				}
+			}	
+			.theseus-description {
+				float: left;
+				position: relative;
+				left: 18em;
+				top: -2.5em;
+				width: 26em;
 
-	.costume-description .theseus-description .costume-explination h4 {
-			font-size: 1.5em;
-			border-top: 1.2em solid blue;
-			border-color: rgba(6, 96, 130, .7);
-			padding-top: 0.4em;
+			}	
 		}
-
-	.costume-description .theseus-description .costume-explination p {
-		font-size: 1.1em;
-		line-height: 1.3em;
-		padding: 0.8em 1em 5.0em 1em;
-		margin: 0;
 	}
 
 }
@@ -194,6 +216,121 @@
 
 
 
+@media (min-width: 1024px){
+
+	.bar-top {
+		position: fixed;
+		z-index: 11;
+		width: 100%;
+		max-width: 1400px;
+		opacity: 0.9;
+		.menu-right {
+			.menu {
+				.navhere {
+					background-color: #707684;
+					border-bottom: 0.5em solid #ed1c24;
+					border-top: none;
+					padding-top: 2.4em;
+				}
+			}	
+		}	
+	}
+
+	.main {
+		overflow: hidden;
+		position: relative;
+		top: 3.8em;
+		margin-bottom: 5em;
+	}	
+
+	.costumesnav {
+		width: 15%;
+		float: left;
+		padding-bottom: 2em;
+		border-bottom: 0.1em solid black;
+		h2 {
+			display: block;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			text-align: center;
+			color: black;
+			text-transform: uppercase;
+			font-size: 100 1.5em 'Open Sans', Helvetica, sans-serif;
+		}
+		li {
+			display: block;
+			text-align: left;
+			margin-left: 1em;
+			padding: 0.4em 0.2em;
+
+		}
+	}
+		
+	.article {
+		width: 85%;
+		float: right;
+			.relativeheader {
+				padding: 0;
+				.costumes {
+					left: 0;
+					font-size: 7.6vw;
+					height: 31%;
+				}
+			}	
+	}	
+		
+	.footer {
+		width: 15%;
+		float: left;
+		h3 {
+			font-size: 2em;
+			margin-top: 1em;
+		}
+		.contactlink {
+			li {
+				display: block;
+				margin: 0.5em auto;
+			}
+			.icon {
+				width: 5em;
+			}
+			.em {
+				height: inherit;
+				border-right: none;
+				border-left: none;
+				border-top: 0.1em solid black;
+				border-bottom: 0.1em solid black;
+				padding: 1em 0;
+				position: static;
+				top: 0;
+			}
+			.phone {
+				display: block;
+				margin-bottom: 1em;
+			}
+
+			#phonenumber {
+				position: static;
+				padding: 0 0 1em 0;
+			}
+		}
+
+	}	
+}
+
+
+
+
+
+
+
+@media (min-width: 1400px){
+
+
+	.article .relativeheader .costumes {
+		font-size: 7em;
+	}
+}
 
 
 

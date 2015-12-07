@@ -37,12 +37,6 @@ a {
 a:hover {
   text-decoration: underline; }
 
-strong {
-  font-weight: bold; }
-
-em {
-  font-style: italic; }
-
 .container {
   width: 100%;
   margin: 0 auto; }
@@ -69,10 +63,12 @@ em {
   background-color: #8a91a0; }
   .menu-right .menu .navhere {
     color: black;
+    background-color: white;
     font: 100 1.1em 'Open Sans', Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0 0.2em;
-    border-bottom: 1em solid #ed1c24; }
+    border-bottom: 1em solid white;
+    border-top: 0.29em solid white; }
   .menu-right .menu li {
     display: inline-block;
     padding: 0 0.2em; }
@@ -116,10 +112,11 @@ em {
 .footer .contactlink {
   text-align: center;
   margin: 1.5em 0.2em; }
+  .footer .contactlink a {
+    color: black; }
   .footer .contactlink li {
     display: inline-block; }
   .footer .contactlink .icon {
-    height: 3em;
     width: 3em;
     line-height: 1em; }
   .footer .contactlink .em {
@@ -173,7 +170,8 @@ em {
   margin-bottom: 0; }
 
 .relativeheader img {
-  width: 100%; }
+  width: 100%;
+  max-width: 1400px; }
 
 .costumes {
   position: absolute;
