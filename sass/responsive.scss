@@ -1,3 +1,11 @@
+
+@media (min-width: 400px) {
+	body {
+		font-size: 1em;
+	}
+
+}
+
 @media (min-width: 640px) {
 	
 	strong {
@@ -114,97 +122,7 @@
 		}
 	}
 
-/*--------------OBERON COSTUME BODY-----------*/
 
-	.the-fairies-costumes {
-		width: 100%;
-		position: relative;
-		text-align: center;
-		margin-bottom: 8em;
-		.costume-description {
-			display: inline-block;
-			text-align: left;
-			#oberon-back {
-				float: left;
-				position: relative;
-				left: 15em;
-				width: 66%;
-				img {
-					max-width: 32em;
-				}
-			}	
-			.oberon-description {
-				float: left;
-				position: relative;
-				left: -30em;
-				top: 3em;
-				width: 16em;
-
-			}	
-		}
-	}
-
-/*--------------MECHANICAlS COSTUME BODY-----------*/
-
-	.the-mechanicals-costumes {
-		width: 100%;
-		position: relative;
-		text-align: center;
-		margin-bottom: 8em;
-		.costume-description {
-			width: 50em;
-			display: inline-block;
-			text-align: left;
-			#mechanicals-line {
-				float: left;
-				position: relative;
-				left: 2em;
-				width: 66%;
-				img {
-					max-width: 45em;
-				}
-			}	
-			.mechanicals-description {
-				float: left;
-				position: relative;
-				left: 5em;
-				top: -2.5em;
-				width: 26em;
-
-			}	
-		}
-	}
-
-/*--------------COURT COSTUME BODY-----------*/
-
-.the-court-costumes {
-		width: 100%;
-		position: relative;
-		text-align: center;
-		margin-bottom: 8em;
-		.costume-description {
-			width: 50em;
-			display: inline-block;
-			text-align: left;
-			#theseus-court {
-				float: left;
-				position: relative;
-				left: 2em;
-				width: 66%;
-				img {
-					max-width: 45em;
-				}
-			}	
-			.theseus-description {
-				float: left;
-				position: relative;
-				left: 18em;
-				top: -2.5em;
-				width: 26em;
-
-			}	
-		}
-	}
 
 }
 
@@ -261,6 +179,7 @@
 			display: block;
 			text-align: left;
 			margin-left: 1em;
+			margin-right: 1em;
 			padding: 0.4em 0.2em;
 
 		}

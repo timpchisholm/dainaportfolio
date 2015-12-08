@@ -1,0 +1,105 @@
+.costumes {
+  position: absolute;
+  top: 60%;
+  left: -0.6%;
+  width: 55%;
+  height: 20%;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 600;
+  font-size: 10vw;
+  color: #9E0909;
+  line-height: 76%;
+  letter-spacing: 0em;
+  padding-top: 0.1em;
+  padding-right: 0;
+  padding-left: 0.1em;
+  background-color: rgba(200, 200, 200, 0.6);
+  margin-bottom: 0; }
+
+.costume-description #oberon-back {
+  width: 85%;
+  max-width: 40em;
+  margin: 0 auto; }
+  .costume-description #oberon-back img {
+    padding: 0 1em 0 1em; }
+
+.costume-description #kristine {
+  width: 70%;
+  max-width: 28em;
+  margin: 0 auto; }
+  .costume-description #kristine img {
+    padding: 0 1em 0 1em; }
+
+@media (min-width: 768px) {
+  /*--------------OBERON COSTUME BODY-----------*/
+  .the-fairies-costumes {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8em; }
+    .the-fairies-costumes .costume-description {
+      display: inline-block;
+      text-align: left; }
+      .the-fairies-costumes .costume-description #oberon-back {
+        float: left;
+        position: relative;
+        left: 15em;
+        width: 66%; }
+        .the-fairies-costumes .costume-description #oberon-back img {
+          max-width: 32em; }
+      .the-fairies-costumes .costume-description .oberon-description {
+        float: left;
+        position: relative;
+        left: -30em;
+        top: 3em;
+        width: 16em; }
+
+  /*--------------MECHANICAlS COSTUME BODY-----------*/
+  .the-mechanicals-costumes {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8em; }
+    .the-mechanicals-costumes .costume-description {
+      width: 50em;
+      display: inline-block;
+      text-align: left; }
+      .the-mechanicals-costumes .costume-description #mechanicals-line {
+        float: left;
+        position: relative;
+        left: 2em;
+        width: 66%; }
+        .the-mechanicals-costumes .costume-description #mechanicals-line img {
+          max-width: 45em; }
+      .the-mechanicals-costumes .costume-description .mechanicals-description {
+        float: left;
+        position: relative;
+        left: 5em;
+        top: -2.5em;
+        width: 26em; }
+
+  /*--------------KRISTINE COSTUME BODY-----------*/
+  .kristine-costumes {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8em; }
+    .kristine-costumes .costume-description {
+      width: 54em;
+      display: inline-block;
+      text-align: left; }
+      .kristine-costumes .costume-description #kristine {
+        float: left;
+        position: relative;
+        left: 18em;
+        width: 60%; }
+        .kristine-costumes .costume-description #kristine img {
+          max-width: 30em; }
+      .kristine-costumes .costume-description .kristine-description {
+        float: left;
+        position: relative;
+        left: -25em;
+        top: -2.5em;
+        width: 26em; } }
+
+/*# sourceMappingURL=missjulie.css.map */
