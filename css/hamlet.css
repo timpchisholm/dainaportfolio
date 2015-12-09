@@ -1,0 +1,102 @@
+.costumes {
+  top: 55%;
+  left: -0.6%;
+  width: 58%;
+  height: 21%;
+  font-size: 11.5vw;
+  color: #552f04;
+  line-height: 76%;
+  padding-top: 0.1em;
+  padding-right: 0;
+  padding-left: 3px;
+  background-color: rgba(200, 200, 200, 0.6);
+  margin-bottom: 0; }
+
+@media (min-width: 540px) {
+  .costume-description #lady-macbeth {
+    width: 95%;
+    max-width: 40em;
+    margin: 0 auto; }
+    .costume-description #lady-macbeth img {
+      padding: 0 1em 0 1em; } }
+@media (min-width: 768px) {
+  /*--------------OBERON COSTUME BODY-----------*/
+  .the-witches-costumes {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8em; }
+    .the-witches-costumes .costume-description {
+      display: inline-block;
+      text-align: left; }
+      .the-witches-costumes .costume-description #witches-tall {
+        float: left;
+        position: relative;
+        left: 2em;
+        width: 66%; }
+        .the-witches-costumes .costume-description #witches-tall img {
+          max-width: 40em; }
+      .the-witches-costumes .costume-description .witches-description {
+        float: left;
+        position: relative;
+        left: 0em;
+        top: 3em;
+        width: 16em; }
+
+  /*--------------MECHANICAlS COSTUME BODY-----------*/
+  .lady-macbeth-costumes {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8em; }
+    .lady-macbeth-costumes .costume-description {
+      width: 50em;
+      display: inline-block;
+      text-align: left; }
+      .lady-macbeth-costumes .costume-description #lady-macbeth-sleepwalk {
+        float: left;
+        position: relative;
+        left: 2em;
+        width: 66%; }
+        .lady-macbeth-costumes .costume-description #lady-macbeth-sleepwalk img {
+          max-width: 45em; }
+      .lady-macbeth-costumes .costume-description .lady-macbeth-description {
+        float: left;
+        position: relative;
+        left: 2em;
+        top: -9em;
+        width: 20em; }
+
+  /*--------------COURT COSTUME BODY-----------*/
+  .soldiers-costumes {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8em; }
+    .soldiers-costumes .costume-description {
+      width: 50em;
+      display: inline-block;
+      text-align: left; }
+      .soldiers-costumes .costume-description #macbeth-banquo {
+        float: left;
+        position: relative;
+        left: 2em;
+        width: 66%; }
+        .soldiers-costumes .costume-description #macbeth-banquo img {
+          max-width: 45em; }
+      .soldiers-costumes .costume-description .soldiers-description {
+        float: left;
+        position: relative;
+        left: 18em;
+        top: -2.5em;
+        width: 26em; } }
+@media (min-width: 1024px) {
+  .article .relativeheader .costumes {
+    height: 22%;
+    font-size: 10.6vw;
+    width: 65%; } }
+@media (min-width: 1400px) {
+  .article .relativeheader .costumes {
+    font-size: 9.5em; } }
+
+/*# sourceMappingURL=hamlet.css.map */
