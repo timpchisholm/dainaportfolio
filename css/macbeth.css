@@ -18,9 +18,15 @@
     max-width: 40em;
     margin: 0 auto; }
     .costume-description #lady-macbeth img {
+      padding: 0 1em 0 1em; }
+  .costume-description #macbeth {
+    width: 95%;
+    max-width: 40em;
+    margin: 0 auto; }
+    .costume-description #macbeth img {
       padding: 0 1em 0 1em; } }
 @media (min-width: 768px) {
-  /*--------------OBERON COSTUME BODY-----------*/
+  /*--------------WITCHES COSTUME BODY-----------*/
   .the-witches-costumes {
     width: 100%;
     position: relative;
@@ -43,7 +49,7 @@
         top: 3em;
         width: 16em; }
 
-  /*--------------MECHANICAlS COSTUME BODY-----------*/
+  /*--------------LADY MACBETH COSTUME BODY-----------*/
   .lady-macbeth-costumes {
     width: 100%;
     position: relative;
@@ -67,7 +73,31 @@
         top: -9em;
         width: 20em; }
 
-  /*--------------COURT COSTUME BODY-----------*/
+  /*--------------LADY MACBETH COSTUME BODY-----------*/
+  .macbeth-costumes {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8em; }
+    .macbeth-costumes .costume-description {
+      width: 50em;
+      display: inline-block;
+      text-align: left; }
+      .macbeth-costumes .costume-description #macbeth-king {
+        float: left;
+        position: relative;
+        left: 1em;
+        width: 66%; }
+        .macbeth-costumes .costume-description #macbeth-king img {
+          max-width: 45em; }
+      .macbeth-costumes .costume-description .macbeth-description {
+        float: left;
+        position: relative;
+        left: 29em;
+        top: -35em;
+        width: 20em; }
+
+  /*--------------SOLDIERS COSTUME BODY-----------*/
   .soldiers-costumes {
     width: 100%;
     position: relative;
