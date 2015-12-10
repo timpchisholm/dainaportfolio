@@ -78,7 +78,8 @@
     z-index: 11;
     width: 100%;
     max-width: 1400px;
-    opacity: 0.9; }
+    opacity: 0.9;
+    box-shadow: 0 1px 20px black; }
     .bar-top .menu-right .menu .navhere {
       background-color: #707684;
       border-bottom: 0.5em solid #ed1c24;
