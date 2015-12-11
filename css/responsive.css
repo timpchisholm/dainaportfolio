@@ -126,8 +126,7 @@
     width: 15%;
     float: left; }
     .footer h3 {
-      font-size: 2em;
-      margin-top: 1em; }
+      display: none; }
     .footer .contactlink li {
       display: block;
       margin: 0.5em auto; }
@@ -149,7 +148,31 @@
       position: static;
       padding: 0 0 1em 0; } }
 @media (min-width: 1400px) {
+  body {
+    max-width: 1400px; }
+
   .article .relativeheader .costumes {
-    font-size: 7em; } }
+    font-size: 5.5em; }
+
+  .costumesnav {
+    float: right;
+    position: fixed;
+    right: 0;
+    top: 6.8em;
+    border-bottom: none; }
+
+  .article {
+    width: 70%;
+    position: relative;
+    right: 13em; }
+
+  .footer {
+    position: fixed;
+    top: 5.8em; }
+    .footer .contactlink li {
+      display: block;
+      margin: 0.5em auto; }
+    .footer .contactlink .icon {
+      width: 4em; } }
 
 /*# sourceMappingURL=responsive.css.map */

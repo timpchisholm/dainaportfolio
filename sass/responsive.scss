@@ -203,8 +203,7 @@
 		width: 15%;
 		float: left;
 		h3 {
-			font-size: 2em;
-			margin-top: 1em;
+			display: none;
 		}
 		.contactlink {
 			li {
@@ -245,22 +244,43 @@
 
 
 @media (min-width: 1400px){
-
-	.article .relativeheader .costumes {
-		font-size: 7em;
+	body {
+		max-width: 1400px;
 	}
+	.article .relativeheader .costumes {
+		font-size: 5.5em;
+	}
+
+	.costumesnav {
+		float: right;
+		position: fixed;
+		right: 0;
+		top: 6.8em;
+		border-bottom: none;
+	}
+
+	.article {
+			width: 70%;
+			position: relative;
+			right: 13em;
+		}
+
+	.footer {
+		position: fixed;
+		top: 5.8em;
+		.contactlink {
+			li {
+				display: block;
+				margin: 0.5em auto;
+			}
+			.icon {
+				width: 4em;
+			}
+		}
+	}
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

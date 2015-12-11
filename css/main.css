@@ -127,6 +127,10 @@ a:hover {
     padding: 0 1em 0 1em;
     position: relative;
     top: 0.5em; }
+  .footer .contactlink .hide {
+    display: none; }
+  .footer .contactlink .fb-hover {
+    width: 6em; }
   .footer .contactlink .phone {
     display: none; }
   .footer .contactlink #phonenumber {
