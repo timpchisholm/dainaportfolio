@@ -116,7 +116,7 @@ a:hover {
     color: black; }
   .footer .contactlink li {
     display: inline-block; }
-  .footer .contactlink .icon a {
+  .footer .contactlink .icon {
     width: 3em;
     line-height: 1em; }
   .footer .contactlink .em {
@@ -128,10 +128,10 @@ a:hover {
     position: relative;
     top: 0.5em; }
   .footer .contactlink .tw {
-    background-image: url("..img/twitter.png"); }
-  .footer .contactlink .tw a:hover {
-    background-image: url("..img/twitter-hover.png");
-    width: 6em; }
+    background-image: url("../img/twitter.png");
+    background-size: 3.2em 3.2em; }
+  .footer .contactlink .tw:hover {
+    background-image: url("../img/twitter-hover.png"); }
   .footer .contactlink .hide {
     display: none; }
   .footer .contactlink .fb-hover {

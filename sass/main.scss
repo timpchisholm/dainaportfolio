@@ -149,7 +149,7 @@ a:hover {
 		li {
 			display: inline-block;
 		}
-		.icon a{
+		.icon {
 
 			width: 3em;
 			line-height: 1em;
@@ -166,12 +166,14 @@ a:hover {
 		}
 	
 		.tw {
-			background-image: url('..img/twitter.png');
+			background-image: url('../img/twitter.png');
+			background-size: 3.2em 3.2em;
+
 		}
 
-		.tw a:hover {
-			background-image: url('..img/twitter-hover.png');
-			width: 6em;
+		.tw:hover {
+			background-image: url('../img/twitter-hover.png');
+
 		}
 
 		.hide {
