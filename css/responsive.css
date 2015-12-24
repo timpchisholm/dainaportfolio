@@ -79,7 +79,8 @@
     width: 100%;
     max-width: 1400px;
     opacity: 0.9;
-    box-shadow: 0 1px 20px black; }
+    box-shadow: 0 1px 20px black;
+    z-index: 992; }
     .bar-top .menu-right .menu .navhere {
       background-color: #707684;
       border-bottom: 0.5em solid #ed1c24;
@@ -140,7 +141,12 @@
       border-bottom: 0.1em solid black;
       padding: 1em 0;
       position: static;
-      top: 0; }
+      top: 0;
+      background-size: 5em; }
+    .footer .contactlink .tw {
+      background-size: 5em; }
+    .footer .contactlink .fb {
+      background-size: 5em; }
     .footer .contactlink .phone {
       display: block;
       margin-bottom: 1em; }
@@ -173,6 +179,12 @@
       display: block;
       margin: 0.5em auto; }
     .footer .contactlink .icon {
-      width: 4em; } }
+      width: 4em; }
+    .footer .contactlink .em {
+      background-size: 4em; }
+    .footer .contactlink .tw {
+      background-size: 4em; }
+    .footer .contactlink .fb {
+      background-size: 4em; } }
 
 /*# sourceMappingURL=responsive.css.map */

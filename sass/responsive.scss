@@ -143,6 +143,7 @@
 		max-width: 1400px;
 		opacity: 0.9;
 		box-shadow: 0 1px 20px black;
+		z-index: 992;
 		.menu-right {
 			.menu {
 				.navhere {
@@ -222,6 +223,13 @@
 				padding: 1em 0;
 				position: static;
 				top: 0;
+				background-size: 5em;
+			}
+			.tw{
+			background-size: 5em;
+			}
+			.fb{
+			background-size: 5em;
 			}
 			.phone {
 				display: block;
@@ -275,6 +283,15 @@
 			}
 			.icon {
 				width: 4em;
+			}
+			.em{
+				background-size: 4em;
+			}
+			.tw{
+				background-size: 4em;
+			}
+			.fb{
+				background-size: 4em;
 			}
 		}
 	}

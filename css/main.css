@@ -126,18 +126,29 @@ a:hover {
     border-left: 0.1em solid black;
     padding: 0 1em 0 1em;
     position: relative;
-    top: 0.5em; }
+    top: 0.5em;
+    background-image: url("../img/email.png");
+    background-size: 3.2em;
+    background-repeat: no-repeat;
+    background-position: 50%; }
+  .footer .contactlink .em:hover {
+    background-image: url("../img/email-hover.png"); }
   .footer .contactlink .tw {
     background-image: url("../img/twitter.png");
-    background-size: 3.2em 3.2em; }
+    background-size: 3.2em; }
   .footer .contactlink .tw:hover {
     background-image: url("../img/twitter-hover.png"); }
-  .footer .contactlink .hide {
-    display: none; }
-  .footer .contactlink .fb-hover {
-    width: 6em; }
+  .footer .contactlink .fb {
+    background-image: url("../img/facebook.png");
+    background-size: 3.2em; }
+  .footer .contactlink .fb:hover {
+    background-image: url("../img/facebook-hover.png"); }
   .footer .contactlink .phone {
+    background-image: url("../img/phone.png");
+    background-size: 3.2em;
     display: none; }
+  .footer .contactlink .phone:hover {
+    background-image: url("../img/phone-hover.png"); }
   .footer .contactlink #phonenumber {
     font: 300 1em Helvetica, sans-serif;
     padding-right: 1em;
@@ -233,6 +244,7 @@ figure figcaption {
 
 .costume-explination {
   position: relative;
-  top: -0.31em; }
+  top: -0.31em;
+  z-index: 991; }
 
 /*# sourceMappingURL=main.css.map */

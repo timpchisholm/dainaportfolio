@@ -163,11 +163,18 @@ a:hover {
 			padding: 0 1em 0 1em;
 			position: relative;
 			top: 0.5em;
+			background-image: url('../img/email.png');
+			background-size: 3.2em;
+			background-repeat: no-repeat;
+			background-position: 50%;
 		}
-	
+
+		.em:hover {
+			background-image: url('../img/email-hover.png');
+		}
 		.tw {
 			background-image: url('../img/twitter.png');
-			background-size: 3.2em 3.2em;
+			background-size: 3.2em;
 
 		}
 
@@ -176,16 +183,23 @@ a:hover {
 
 		}
 
-		.hide {
-			display: none;
+		.fb {
+			background-image: url('../img/facebook.png');
+			background-size: 3.2em;
+
 		}
-		
-		.fb-hover {
-			width: 6em;
+
+		.fb:hover {
+			background-image: url('../img/facebook-hover.png');
 		}
 
 		.phone {
+			background-image: url('../img/phone.png');
+			background-size: 3.2em;
 			display: none;
+		}
+		.phone:hover {
+			background-image: url('../img/phone-hover.png');
 		}
 
 		#phonenumber {
@@ -293,6 +307,7 @@ figure {
 }
 
 .costume-description {
+		
 		h4 {
 			font: 600 1em Georgia, serif;
 			text-transform: uppercase;
@@ -314,5 +329,6 @@ figure {
 	.costume-explination {
 		position: relative;
 		top: -0.31em;
+		z-index: 991;
 	}
 
