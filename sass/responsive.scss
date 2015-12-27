@@ -76,15 +76,16 @@
 	.menu-right {
 		float: right;
 		position: relative;
-		bottom: 1em;
+		bottom: 0.54em;
 		padding-bottom: 0;
 		background-color: #707684;
 	}	
 
 	.bar-top .menu-right .menu .navhere {
 		font-size: 1.2em;
-		border-bottom: 0.4em solid white;
+		border-bottom: 0.4em solid #ed1c24;
 		padding-top: 2em;
+		background-color: #707684;
 
 	}
 
@@ -95,7 +96,7 @@
 /*--------------SECTION NAV BAR-----------*/
 
 	.costumesnav {
-		text-align: right;
+		text-align: center;
 	}
 
 /*--------------COSTUME BODY-----------*/
@@ -145,6 +146,7 @@
 		box-shadow: 0 1px 20px black;
 		z-index: 992;
 		.menu-right {
+			bottom: 1em;
 			.menu {
 				.navhere {
 					background-color: #707684;
@@ -226,14 +228,18 @@
 				background-size: 5em;
 			}
 			.tw{
-			background-size: 5em;
+				background-size: 5em;
 			}
 			.fb{
-			background-size: 5em;
+				background-size: 5em;
+			}
+			.ig{
+				background-size: 5em;
 			}
 			.phone {
 				display: block;
 				margin-bottom: 1em;
+				background-size: 5em;
 			}
 
 			#phonenumber {
@@ -291,6 +297,12 @@
 				background-size: 4em;
 			}
 			.fb{
+				background-size: 4em;
+			}
+			.ig{
+				background-size: 4em;
+			}
+			.phone{
 				background-size: 4em;
 			}
 		}

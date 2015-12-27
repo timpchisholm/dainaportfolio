@@ -43,11 +43,13 @@ a:hover {
 
 /*--------------TOP BAR-----------*/
 .bar-top {
-  background-color: #707684; }
+  background-color: #707684;
+  z-index: 100;
+  position: relative; }
 
 .nav {
   overflow: hidden;
-  height: 6.5em;
+  height: 6.2em;
   width: 100%; }
 
 .logo {
@@ -63,12 +65,11 @@ a:hover {
   background-color: #8a91a0; }
   .menu-right .menu .navhere {
     color: black;
-    background-color: white;
+    background-color: #8a91a0;
     font: 100 1.1em 'Open Sans', Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0 0.2em;
-    border-bottom: 1em solid white;
-    border-top: 0.29em solid white; }
+    border-bottom: 0.2em solid #ed1c24; }
   .menu-right .menu li {
     display: inline-block;
     padding: 0 0.2em; }
@@ -85,7 +86,9 @@ a:hover {
 /*--------------SECTION NAV BAR-----------*/
 .costumesnav {
   text-align: center;
-  background-color: white; }
+  background-color: white;
+  /*display: hidden;*/
+  z-index: 99; }
   .costumesnav h2 {
     display: none; }
   .costumesnav li {
@@ -143,6 +146,11 @@ a:hover {
     background-size: 3.2em; }
   .footer .contactlink .fb:hover {
     background-image: url("../img/facebook-hover.png"); }
+  .footer .contactlink .ig {
+    background-image: url("../img/instagram.png");
+    background-size: 3.2em; }
+  .footer .contactlink .ig:hover {
+    background-image: url("../img/instagram-hover.png"); }
   .footer .contactlink .phone {
     background-image: url("../img/phone.png");
     background-size: 3.2em;
@@ -225,6 +233,11 @@ figure figcaption {
     border: none; }
 
 /*--------------COSTUME BODY-----------*/
+article {
+  position: relative;
+  top: -2em;
+  z-index: 98; }
+
 .intro {
   padding: 1em 1.3em; }
 

@@ -41,21 +41,22 @@
   .menu-right {
     float: right;
     position: relative;
-    bottom: 1em;
+    bottom: 0.54em;
     padding-bottom: 0;
     background-color: #707684; }
 
   .bar-top .menu-right .menu .navhere {
     font-size: 1.2em;
-    border-bottom: 0.4em solid white;
-    padding-top: 2em; }
+    border-bottom: 0.4em solid #ed1c24;
+    padding-top: 2em;
+    background-color: #707684; }
 
   .bar-top .menu-right .menu li a {
     font-size: 1.2em; }
 
   /*--------------SECTION NAV BAR-----------*/
   .costumesnav {
-    text-align: right; }
+    text-align: center; }
 
   /*--------------COSTUME BODY-----------*/
   .intro {
@@ -81,11 +82,13 @@
     opacity: 0.9;
     box-shadow: 0 1px 20px black;
     z-index: 992; }
-    .bar-top .menu-right .menu .navhere {
-      background-color: #707684;
-      border-bottom: 0.5em solid #ed1c24;
-      border-top: none;
-      padding-top: 2.4em; }
+    .bar-top .menu-right {
+      bottom: 1em; }
+      .bar-top .menu-right .menu .navhere {
+        background-color: #707684;
+        border-bottom: 0.5em solid #ed1c24;
+        border-top: none;
+        padding-top: 2.4em; }
 
   .main {
     overflow: hidden;
@@ -147,9 +150,12 @@
       background-size: 5em; }
     .footer .contactlink .fb {
       background-size: 5em; }
+    .footer .contactlink .ig {
+      background-size: 5em; }
     .footer .contactlink .phone {
       display: block;
-      margin-bottom: 1em; }
+      margin-bottom: 1em;
+      background-size: 5em; }
     .footer .contactlink #phonenumber {
       position: static;
       padding: 0 0 1em 0; } }
@@ -185,6 +191,10 @@
     .footer .contactlink .tw {
       background-size: 4em; }
     .footer .contactlink .fb {
+      background-size: 4em; }
+    .footer .contactlink .ig {
+      background-size: 4em; }
+    .footer .contactlink .phone {
       background-size: 4em; } }
 
 /*# sourceMappingURL=responsive.css.map */
