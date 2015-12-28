@@ -87,7 +87,7 @@ a:hover {
 .costumesnav {
   text-align: center;
   background-color: white;
-  /*display: hidden;*/
+  display: none;
   z-index: 99; }
   .costumesnav h2 {
     display: none; }
@@ -235,7 +235,7 @@ figure figcaption {
 /*--------------COSTUME BODY-----------*/
 article {
   position: relative;
-  top: -2em;
+  /*top: -2em;*/
   z-index: 98; }
 
 .intro {

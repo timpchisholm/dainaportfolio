@@ -61,7 +61,6 @@
 
 /*--------------TOP BAR-----------*/
 	.bar-top {
-
 		.nav {
 			height: 3.8em;
 		}
@@ -168,6 +167,7 @@
 	.costumesnav {
 		width: 15%;
 		float: left;
+		display: block;
 		padding-bottom: 2em;
 		border-bottom: 0.1em solid black;
 		h2 {
@@ -267,9 +267,9 @@
 
 	.costumesnav {
 		float: right;
-		position: fixed;
-		right: 0;
-		top: 6.8em;
+		position: absolute;
+		right: -3px;
+		top: 3.8em;
 		border-bottom: none;
 	}
 

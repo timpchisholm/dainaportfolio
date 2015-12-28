@@ -9,7 +9,6 @@ $('.costume-description a').fluidbox();
 //   }
 // );
 
-$(".navhere").click(function(){
-	$('.costumenav').slideDown();
-
+$('li .navhere').mouseenter(function(){
+	$('nav .costumenav').slideDown();
 })
