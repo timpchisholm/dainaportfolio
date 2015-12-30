@@ -169,6 +169,7 @@
 		float: left;
 		display: block;
 		padding-bottom: 2em;
+		z-index: 0;
 		border-bottom: 0.1em solid black;
 		h2 {
 			display: block;
@@ -258,16 +259,18 @@
 
 
 @media (min-width: 1400px){
-	body {
+	.container {
 		max-width: 1400px;
 	}
 	.article .relativeheader .costumes {
 		font-size: 5.5em;
 	}
-
+	.footer {
+		float: none;
+	}
 	.costumesnav {
 		float: right;
-		position: absolute;
+		position: fixed;
 		right: -3px;
 		top: 3.8em;
 		border-bottom: none;

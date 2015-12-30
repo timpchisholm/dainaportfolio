@@ -37,6 +37,9 @@ a {
 a:hover {
   text-decoration: underline; }
 
+em {
+  font-style: italic; }
+
 .container {
   width: 100%;
   margin: 0 auto; }
@@ -253,11 +256,21 @@ article {
   color: white;
   background-color: rgba(30, 150, 195, 0.8);
   padding: 0.8em 1em 1.5em 1em;
-  margin: 0 0 4em 0; }
+  margin: 0 0 1em 0; }
 
 .costume-explination {
   position: relative;
   top: -0.31em;
   z-index: 991; }
+
+.costume-thumb img {
+  max-width: 5em; }
+
+.costume-thumb {
+  margin: 0 0.5em 2em 0.5em;
+  text-align: center; }
+  .costume-thumb li {
+    display: inline-block;
+    margin: 0 0.5em; }
 
 /*# sourceMappingURL=main.css.map */

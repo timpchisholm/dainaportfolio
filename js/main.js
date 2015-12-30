@@ -1,5 +1,6 @@
 
 $('.costume-description a').fluidbox();
+$('.thumb a').fluidbox();
 
 // $( ".navhere" ).hover(
 //   function() {
@@ -12,3 +13,4 @@ $('.costume-description a').fluidbox();
 $('li .navhere').mouseenter(function(){
 	$('nav .costumenav').slideDown();
 })
+
