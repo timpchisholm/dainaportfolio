@@ -360,8 +360,38 @@ article {
 	margin: 0 0.5em 2em 0.5em;
 	text-align: center;
 	li {
-		display: inline-block;
+		display: none;
 		margin: 0 0.5em;
 	}
 }	
 
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+    border-right: 20px solid gray;
+    position: relative;
+    bottom: 20px;
+	cursor: pointer; cursor: hand;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+    border-left: 20px solid gray;
+    position: relative;
+    bottom: 20px;
+    cursor: pointer; cursor: hand;
+}
+
+
+.costume-thumb li:nth-child(-n+4){
+	display: inline-block;
+}
+
+.costume-thumb li:nth-last-child(1){
+	display: inline-block;
+}

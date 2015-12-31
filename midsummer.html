@@ -7,7 +7,7 @@
         <meta name="description" content="A costume portfolio for Daina Valiulis">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.3.1/css/fluidbox.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.3.1/css/fluidbox.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/helpers.css">
@@ -32,7 +32,7 @@
                     <div class="menu-right">
                         <ul class="menu">
                             <li><a href="index.html" title="Home">home</a></li>
-                            <li class="navhere" class="costume-slideunder">costumes</li>
+                            <li class="navhere" data-jq-dropdown="#jq-dropdown-1">costumes</li>
                             <li><a href="props.html" title="Props">props</a></li>
                             <li><a href="sets.html" title="Set">set</a></li>
                             <li><a href="art.html" title="Art">art</a></li>
@@ -43,17 +43,21 @@
             </header>
 
              <main class="main">
-                <nav class="costumesnav">
-                    <h2 id="costumeslist">Costumes</h2>
-                    <ul>
-                        <li><a href="costumes/missjulie.html" title="Miss Julie">Miss Julie</a></li>
-                        <li class="costumenavhere">A Midsummer Night's Dream</li>
-                        <li><a href="costumes/hamlet.html" title="Hamlet">Hamlet</a></li>
-                        <li><a href="costumes/macbeth.html" title="Macbeth">Macbeth</a></li>
-                        <li><a href="costumes/jillianjigs.html" title="Jillian Jigs">Jillian Jigs</a></li>
-                        <li><a href="costumes/beautyandthegeek.html" title="Beauty and the Geek">Beauty and the Geek</a></li>
-                    </ul>
-                </nav>
+                <div id="jq-dropdown-1" class="jq-dropdown">
+                    <div class="jq-dropdown-panel">
+                        <nav class="costumesnav">
+                            <h2 id="costumeslist">Costumes</h2>
+                            <ul>
+                                <li><a href="costumes/missjulie.html" title="Miss Julie">Miss Julie</a></li>
+                                <li class="costumenavhere">A Midsummer Night's Dream</li>
+                                <li><a href="costumes/hamlet.html" title="Hamlet">Hamlet</a></li>
+                                <li><a href="costumes/macbeth.html" title="Macbeth">Macbeth</a></li>
+                                <li><a href="costumes/jillianjigs.html" title="Jillian Jigs">Jillian Jigs</a></li>
+                                <li><a href="costumes/beautyandthegeek.html" title="Beauty and the Geek">Beauty and the Geek</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
          
                 <article class="article">
                     <header class="header">
@@ -91,6 +95,9 @@
                             </div> 
                             <ul class="costume-thumb">
                                 <li>
+                                    <div class="arrow-left"></div>
+                                </li>
+                                <li>
                                     <div class="thumb" id="oberon-thumb">
                                         <a href="img/midsummer/oberon.jpg">
                                             <img src="img/midsummer/oberon.jpg"></a>
@@ -119,6 +126,9 @@
                                         <a href="img/midsummer/oberon-titania.jpg">
                                             <img src="img/midsummer/oberon-titania-thumb.jpg"></a>
                                     </div>
+                                </li>
+                                 <li>
+                                    <div class="arrow-right"></div>
                                 </li>
                             </ul>
 

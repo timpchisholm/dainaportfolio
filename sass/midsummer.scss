@@ -9,6 +9,17 @@
 	}
 }	
 
+@media (width: 320px) {
+	.costume-thumb {
+		margin: 0 0 2em 0;
+	}
+}
+
+@media (min-width: 580px) {
+	.costume-thumb li:nth-child(-n+5){
+		display: inline-block;
+	}
+}
 
 @media (min-width: 768px) {
 
@@ -116,6 +127,10 @@
 
 }
 
-
+@media (min-width: 1400px) {
+	.costume-thumb li:nth-child(-n+6){
+		display: inline-block;
+	}
+}
 
 

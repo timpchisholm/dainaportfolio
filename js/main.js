@@ -10,7 +10,18 @@ $('.thumb a').fluidbox();
 //   }
 // );
 
-$('li .navhere').mouseenter(function(){
-	$('nav .costumenav').slideDown();
+$('li .navhere').on('click', function(){
+	$('.costumesnav').slideDown();
 })
+
+// $(document).ready(function(){
+// 	$(".navhere").hover
+// 		(function(){
+// 			$('.costumesnav').css('display', 'block');
+// 	},
+// 		(function(){
+// 			$('costumesnav').css('display', 'none');
+// 		});
+
+// });
 
