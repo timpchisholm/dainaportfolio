@@ -17,8 +17,10 @@
 
   .costume-thumb {
     position: relative;
-    top: 5em;
     margin-bottom: 13em; }
+
+  .fairies-thumb {
+    top: 5em; }
 
   .arrow-right {
     bottom: 40px; }

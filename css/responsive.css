@@ -165,6 +165,9 @@
   .container {
     max-width: 1400px; }
 
+  .main {
+    max-width: 1400px; }
+
   .article .relativeheader .costumes {
     font-size: 5.5em; }
 
@@ -173,19 +176,21 @@
 
   .costumesnav {
     float: right;
+    top: 4.8em;
+    border-bottom: none;
     position: fixed;
-    right: -3px;
-    top: 3.8em;
-    border-bottom: none; }
+    right: calc(50% - 850px + 160px);
+    width: auto; }
 
   .article {
     width: 70%;
     position: relative;
-    right: 13em; }
+    right: 15em; }
 
   .footer {
+    top: 5.8em;
     position: fixed;
-    top: 5.8em; }
+    left: calc(50% - 850px + 100px); }
     .footer .contactlink li {
       display: block;
       margin: 0.5em auto; }

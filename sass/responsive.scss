@@ -22,9 +22,8 @@
 			display: inline-block;
 			padding: 1vw 0.3em;	
 			a {
-
 			font-size: 0.9em;
-		}
+			}
 		}	
 	}
 
@@ -262,6 +261,11 @@
 	.container {
 		max-width: 1400px;
 	}
+
+	.main {
+		max-width: 1400px;
+	}
+
 	.article .relativeheader .costumes {
 		font-size: 5.5em;
 	}
@@ -269,22 +273,24 @@
 		float: none;
 	}
 	.costumesnav {
-		float: right;
-		position: fixed;
-		right: -3px;
-		top: 3.8em;
-		border-bottom: none;
+	    float: right;
+	    top: 4.8em;
+	    border-bottom: none;
+	    position: fixed;
+	    right: calc(50% - 850px + 160px);
+	    width: auto;
 	}
 
 	.article {
 			width: 70%;
 			position: relative;
-			right: 13em;
+			right: 15em;
 		}
 
 	.footer {
-		position: fixed;
 		top: 5.8em;
+    	position: fixed;
+    	left: calc(50% - 850px + 100px);
 		.contactlink {
 			li {
 				display: block;
