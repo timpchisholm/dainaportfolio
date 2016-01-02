@@ -12,6 +12,20 @@
   .costume-thumb li:nth-child(-n+5) {
     display: inline-block; } }
 @media (min-width: 768px) {
+  .costume-thumb img {
+    max-width: 7em; }
+
+  .costume-thumb {
+    position: relative;
+    top: 5em;
+    margin-bottom: 13em; }
+
+  .arrow-right {
+    bottom: 40px; }
+
+  .arrow-left {
+    bottom: 40px; }
+
   /*--------------OBERON COSTUME BODY-----------*/
   .the-fairies-costumes {
     width: 100%;
@@ -34,12 +48,6 @@
         left: -30em;
         top: 3em;
         width: 16em; }
-    .the-fairies-costumes .costume-thumb img {
-      max-width: 7em; }
-    .the-fairies-costumes .costume-thumb {
-      position: relative;
-      top: 5em;
-      margin-bottom: 13em; }
 
   /*--------------MECHANICAlS COSTUME BODY-----------*/
   .the-mechanicals-costumes {
