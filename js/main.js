@@ -10,9 +10,9 @@ $('.thumb a').fluidbox();
 //   }
 // );
 
-$('li .navhere').on('click', function(){
-	$('.costumesnav').slideDown();
-})
+// $('li .navhere').on('click', function(){
+// 	$('.costumesnav').slideDown();
+// })
 
 // $(document).ready(function(){
 // 	$(".navhere").hover
@@ -24,4 +24,3 @@ $('li .navhere').on('click', function(){
 // 		});
 
 // });
-

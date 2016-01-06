@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.3.1/css/fluidbox.css">
+        <link rel="stylesheet" href="jquery/jquery-ui.min.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/helpers.css">
@@ -32,7 +33,7 @@
                     <div class="menu-right">
                         <ul class="menu">
                             <li><a href="index.html" title="Home">home</a></li>
-                            <li class="navhere" data-jq-dropdown="#jq-dropdown-1">costumes</li>
+                            <li class="navhere" id="costume-drop">costumes</li>
                             <li><a href="props.html" title="Props">props</a></li>
                             <li><a href="sets.html" title="Set">set</a></li>
                             <li><a href="art.html" title="Art">art</a></li>
@@ -303,6 +304,7 @@
         </div>
 
           <script src="js/vendor/jquery-1.11.3.min.js"></script>
+          <script src="jquery/jquery-ui.min.js"></script>
           <script>window.jQuery || document.write('<script src="javascripts/jquery-1.11.2.min.js"><\/script>')</script>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.3.1/jquery.fluidbox.js"></script>
         <script src="js/main.js"></script>
