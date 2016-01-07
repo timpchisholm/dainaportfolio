@@ -24,3 +24,10 @@ $('.thumb a').fluidbox();
 // 		});
 
 // });
+
+
+$('#costume-drop').on('click', function() {
+
+	$('.costumesnav').slideToggle(100);
+
+});
