@@ -91,8 +91,8 @@ em {
   display: none;
   text-align: center;
   background-color: white;
-  /*display: none;*/
-  z-index: 99; }
+  z-index: 99;
+  box-shadow: inset 1.5px 0.5px 5px 1px #6f6f6f; }
   .costumesnav h2 {
     display: none; }
   .costumesnav li {
@@ -239,8 +239,7 @@ figure figcaption {
 /*--------------COSTUME BODY-----------*/
 article {
   position: relative;
-  /*top: -2em;*/
-  z-index: 98; }
+  z-index: 101; }
 
 .intro {
   padding: 1em 1.3em; }
@@ -264,42 +263,43 @@ article {
   top: -0.31em;
   z-index: 991; }
 
-.costume-thumb img {
-  max-width: 5em; }
+.thumb-container {
+  width: 320px;
+  margin: 0 auto;
+  position: relative; }
 
-.costume-thumb {
-  margin: 0 0.5em 2em 0.5em;
+.gallery {
+  width: 320px;
+  padding: 50px;
   text-align: center; }
-  .costume-thumb li {
-    display: none;
-    margin: 0 0.5em; }
 
-.arrow-left {
-  width: 0;
-  height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-right: 20px solid gray;
-  position: relative;
-  bottom: 20px;
-  cursor: pointer;
-  cursor: hand; }
+.thumb {
+  width: 30%;
+  height: auto;
+  display: none; }
 
-.arrow-right {
-  width: 0;
-  height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-left: 20px solid gray;
-  position: relative;
-  bottom: 20px;
-  cursor: pointer;
-  cursor: hand; }
-
-.costume-thumb li:nth-child(-n+4) {
+.shown {
   display: inline-block; }
 
-.costume-thumb li:nth-last-child(1) {
-  display: inline-block; }
+.next,
+.back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40px;
+  height: auto; }
+
+.next:hover,
+.back:hover {
+  cursor: pointer; }
+
+.next {
+  right: 5px;
+  transform: rotate(90deg); }
+
+.back {
+  left: 5px;
+  transform: rotate(-90deg); }
 
 /*# sourceMappingURL=main.css.map */

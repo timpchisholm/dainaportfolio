@@ -5,29 +5,42 @@
   .costume-description #oberon-back img {
     padding: 0 1em 0 1em; }
 
+/*
 @media (width: 320px) {
-  .costume-thumb {
-    margin: 0 0 2em 0; } }
+	.costume-thumb {
+		margin: 0 0 2em 0;
+	}
+}
+
 @media (min-width: 580px) {
-  .costume-thumb li:nth-child(-n+5) {
-    display: inline-block; } }
+	.costume-thumb li:nth-child(-n+5){
+		display: inline-block;
+	}
+}
+*/
 @media (min-width: 768px) {
-  .costume-thumb img {
-    max-width: 7em; }
-
-  .costume-thumb {
-    position: relative;
-    margin-bottom: 13em; }
-
-  .fairies-thumb {
-    top: 5em; }
-
-  .arrow-right {
-    bottom: 40px; }
-
-  .arrow-left {
-    bottom: 40px; }
-
+  /*
+  	.costume-thumb img {
+  			max-width: 7em;
+  	}
+  
+  	.costume-thumb {
+  			position: relative;
+  			margin-bottom: 13em;
+  	}
+  
+  	.fairies-thumb {
+  			top: 5em;
+  	}
+  
+  	.arrow-right {
+  		bottom: 40px;
+  	}	
+  
+  	.arrow-left {
+  		bottom: 40px;
+  	}
+  */
   /*--------------OBERON COSTUME BODY-----------*/
   .the-fairies-costumes {
     width: 100%;
@@ -98,8 +111,12 @@
         left: 18em;
         top: -2.5em;
         width: 26em; } }
+/*
 @media (min-width: 1400px) {
-  .costume-thumb li:nth-child(-n+6) {
-    display: inline-block; } }
+	.costume-thumb li:nth-child(-n+6){
+		display: inline-block;
+	}
+}
+*/
 
 /*# sourceMappingURL=midsummer.css.map */

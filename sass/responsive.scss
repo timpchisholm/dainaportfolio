@@ -2,9 +2,17 @@
 @media (min-width: 400px) {
 	body {
 		font-size: 1em;
+		.thumb-container {
+			width: 400px;
+		}
+
+		.gallery {
+			width: 400px;     
+		}
 	}
 
 }
+
 
 @media (min-width: 640px) {
 	
@@ -170,6 +178,7 @@
 		padding-bottom: 2em;
 		z-index: 0;
 		border-bottom: 0.1em solid black;
+		box-shadow: none;
 		h2 {
 			display: block;
 			margin-top: 1em;
@@ -242,7 +251,6 @@
 				margin-bottom: 1em;
 				background-size: 5em;
 			}
-
 			#phonenumber {
 				position: static;
 				padding: 0 0 1em 0;

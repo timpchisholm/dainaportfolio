@@ -1,6 +1,10 @@
 @media (min-width: 400px) {
   body {
-    font-size: 1em; } }
+    font-size: 1em; }
+    body .thumb-container {
+      width: 400px; }
+    body .gallery {
+      width: 400px; } }
 @media (min-width: 640px) {
   strong {
     font-weight: bold; }
@@ -102,7 +106,8 @@
     display: block;
     padding-bottom: 2em;
     z-index: 0;
-    border-bottom: 0.1em solid black; }
+    border-bottom: 0.1em solid black;
+    box-shadow: none; }
     .costumesnav h2 {
       display: block;
       margin-top: 1em;
