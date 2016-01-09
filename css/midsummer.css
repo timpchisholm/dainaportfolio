@@ -5,118 +5,107 @@
   .costume-description #oberon-back img {
     padding: 0 1em 0 1em; }
 
-/*
-@media (width: 320px) {
-	.costume-thumb {
-		margin: 0 0 2em 0;
-	}
-}
+.arrow, .fairy-next,
+.fairy-back, .mechanicals-next,
+.mechanicals-back, .court-next,
+.court-back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40px;
+  height: auto; }
 
-@media (min-width: 580px) {
-	.costume-thumb li:nth-child(-n+5){
-		display: inline-block;
-	}
-}
-*/
+.arrow-next, .fairy-next, .mechanicals-next, .court-next {
+  right: 5px;
+  transform: rotate(90deg); }
+
+.arrow-back, .fairy-back, .mechanicals-back, .court-back {
+  left: 5px;
+  transform: rotate(-90deg); }
+
+.fairy-shown {
+  display: inline-block; }
+
+.fairy-next:hover,
+.fairy-back:hover {
+  cursor: pointer; }
+
+.mechanicals-shown {
+  display: inline-block; }
+
+.mechancials-next:hover,
+.mechanicals-back:hover {
+  cursor: pointer; }
+
+.court-shown {
+  display: inline-block; }
+
+.court-next:hover,
+.court-back:hover {
+  cursor: pointer; }
+
 @media (min-width: 768px) {
-  /*
-  	.costume-thumb img {
-  			max-width: 7em;
-  	}
-  
-  	.costume-thumb {
-  			position: relative;
-  			margin-bottom: 13em;
-  	}
-  
-  	.fairies-thumb {
-  			top: 5em;
-  	}
-  
-  	.arrow-right {
-  		bottom: 40px;
-  	}	
-  
-  	.arrow-left {
-  		bottom: 40px;
-  	}
-  */
-  /*--------------OBERON COSTUME BODY-----------*/
-  .the-fairies-costumes {
+  .costume-format, .the-fairies-costumes, .the-mechanicals-costumes, .the-court-costumes {
     width: 100%;
     position: relative;
     text-align: center;
     margin-bottom: 8em; }
-    .the-fairies-costumes .costume-description {
-      display: inline-block;
-      text-align: left; }
-      .the-fairies-costumes .costume-description #oberon-back {
-        float: left;
-        position: relative;
-        left: 15em;
-        width: 66%; }
-        .the-fairies-costumes .costume-description #oberon-back img {
-          max-width: 32em; }
-      .the-fairies-costumes .costume-description .oberon-description {
-        float: left;
-        position: relative;
-        left: -30em;
-        top: 3em;
-        width: 16em; }
+
+  /*--------------OBERON COSTUME BODY-----------*/
+  .the-fairies-costumes .costume-description {
+    display: inline-block;
+    text-align: left; }
+    .the-fairies-costumes .costume-description #oberon-back {
+      float: left;
+      position: relative;
+      left: 15em;
+      width: 66%; }
+      .the-fairies-costumes .costume-description #oberon-back img {
+        max-width: 32em; }
+    .the-fairies-costumes .costume-description .oberon-description {
+      float: left;
+      position: relative;
+      left: -30em;
+      top: 3em;
+      width: 16em; }
 
   /*--------------MECHANICAlS COSTUME BODY-----------*/
-  .the-mechanicals-costumes {
-    width: 100%;
-    position: relative;
-    text-align: center;
-    margin-bottom: 8em; }
-    .the-mechanicals-costumes .costume-description {
-      width: 50em;
-      display: inline-block;
-      text-align: left; }
-      .the-mechanicals-costumes .costume-description #mechanicals-line {
-        float: left;
-        position: relative;
-        left: 2em;
-        width: 66%; }
-        .the-mechanicals-costumes .costume-description #mechanicals-line img {
-          max-width: 45em; }
-      .the-mechanicals-costumes .costume-description .mechanicals-description {
-        float: left;
-        position: relative;
-        left: 5em;
-        top: -2.5em;
-        width: 26em; }
+  .the-mechanicals-costumes .costume-description {
+    width: 50em;
+    display: inline-block;
+    text-align: left; }
+    .the-mechanicals-costumes .costume-description #mechanicals-line {
+      float: left;
+      position: relative;
+      left: 2em;
+      width: 66%; }
+      .the-mechanicals-costumes .costume-description #mechanicals-line img {
+        max-width: 45em; }
+    .the-mechanicals-costumes .costume-description .mechanicals-description {
+      float: left;
+      position: relative;
+      left: 5em;
+      top: -2.5em;
+      width: 26em; }
 
   /*--------------COURT COSTUME BODY-----------*/
-  .the-court-costumes {
-    width: 100%;
-    position: relative;
-    text-align: center;
-    margin-bottom: 8em; }
-    .the-court-costumes .costume-description {
-      width: 50em;
-      display: inline-block;
-      text-align: left; }
-      .the-court-costumes .costume-description #theseus-court {
-        float: left;
-        position: relative;
-        left: 2em;
-        width: 66%; }
-        .the-court-costumes .costume-description #theseus-court img {
-          max-width: 45em; }
-      .the-court-costumes .costume-description .theseus-description {
-        float: left;
-        position: relative;
-        left: 18em;
-        top: -2.5em;
-        width: 26em; } }
-/*
-@media (min-width: 1400px) {
-	.costume-thumb li:nth-child(-n+6){
-		display: inline-block;
-	}
-}
-*/
+  .the-court-costumes .costume-description {
+    width: 50em;
+    display: inline-block;
+    text-align: left; }
+    .the-court-costumes .costume-description #theseus-court {
+      float: left;
+      position: relative;
+      left: 2em;
+      width: 66%; }
+      .the-court-costumes .costume-description #theseus-court img {
+        max-width: 45em; }
+    .the-court-costumes .costume-description .theseus-description {
+      float: left;
+      position: relative;
+      left: 18em;
+      top: -2.5em;
+      width: 26em; } }
 
 /*# sourceMappingURL=midsummer.css.map */

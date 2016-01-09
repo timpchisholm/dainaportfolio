@@ -294,10 +294,7 @@ em {
 	padding-left: 3px;
 	background-color: rgba(200, 200, 200, .6);
 	margin-bottom: 0;
-		
-
 }
-
 figure {
 	figcaption {
 		margin: 0;
@@ -346,11 +343,11 @@ article {
 	
 }
 
-	.costume-explination {
-		position: relative;
-		top: -0.31em;
-		z-index: 991;
-	}
+.costume-explination {
+	position: relative;
+	top: -0.31em;
+	z-index: 991;
+}
 
 
 .thumb-container {
@@ -358,6 +355,8 @@ article {
 	margin: 0 auto;
 	position: relative;
 }
+
+/*--------------CAROUSEL-----------*/
 
 .gallery {
 	 width: 320px;     
@@ -370,46 +369,6 @@ article {
   height: auto;    
   display: none;    
 }
-
-.shown {       
-  display: inline-block;  
-}                   
-
-.next,
-.back {
-  position: absolute; 
-  top: 0;            
-  bottom: 0;         
-  margin: auto;        
-  width: 40px;
-  height: auto;       
-}
-
-.next:hover,
-.back:hover {
-  cursor: pointer;
-}
-
-.next {
-  right: 5px;                  
-  transform: rotate(90deg);    
-}
-
-.back {
-  left: 5px;                  
-  transform: rotate(-90deg);  
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 

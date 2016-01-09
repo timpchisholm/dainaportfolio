@@ -268,6 +268,7 @@ article {
   margin: 0 auto;
   position: relative; }
 
+/*--------------CAROUSEL-----------*/
 .gallery {
   width: 320px;
   padding: 50px;
@@ -277,29 +278,5 @@ article {
   width: 30%;
   height: auto;
   display: none; }
-
-.shown {
-  display: inline-block; }
-
-.next,
-.back {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  width: 40px;
-  height: auto; }
-
-.next:hover,
-.back:hover {
-  cursor: pointer; }
-
-.next {
-  right: 5px;
-  transform: rotate(90deg); }
-
-.back {
-  left: 5px;
-  transform: rotate(-90deg); }
 
 /*# sourceMappingURL=main.css.map */

@@ -13,25 +13,71 @@ $('#costume-drop').on('click', function() {
 $(document).ready(function(){
 
   // On click of the NEXT button
-  $('.next').on('click', function(){
-    if ( $('.shown').is(':last-child') ) {
+  $('.fairy-next').on('click', function(){
+    if ( $('.fairy-shown').is(':last-child') ) {
       jQuery.noop();
     }
     else {
-      $('.shown').removeClass('shown').next().addClass('shown');
+      $('.fairy-shown').removeClass('fairy-shown').next().addClass('fairy-shown');
       $('.costume-description a').fluidbox();
 	  $('.thumb a').fluidbox();
     }
   });
 
   // On click of the BACK button
-  $('.back').on('click', function(){
+  $('.fairy-back').on('click', function(){
 
-    if ( $('.shown').is(':first-child') ) {
+    if ( $('.fairy-shown').is(':first-child') ) {
 		jQuery.noop();
     }
     else {
-      $('.shown').removeClass('shown').prev().addClass('shown');
+      $('.fairy-shown').removeClass('fairy-shown').prev().addClass('fairy-shown');
+    }
+  });
+  
+    // On click of the NEXT button
+  $('.mechanicals-next').on('click', function(){
+    if ( $('.mechanicals-shown').is(':last-child') ) {
+      jQuery.noop();
+    }
+    else {
+      $('.mechanicals-shown').removeClass('mechanicals-shown').next().addClass('mechanicals-shown');
+      $('.costume-description a').fluidbox();
+	  $('.thumb a').fluidbox();
+    }
+  });
+
+  // On click of the BACK button
+  $('.mechanicals-back').on('click', function(){
+
+    if ( $('.mechanicals-shown').is(':first-child') ) {
+		jQuery.noop();
+    }
+    else {
+      $('.mechanicals-shown').removeClass('mechanicals-shown').prev().addClass('mechanicals-shown');
+    }
+  });
+  
+     // On click of the NEXT button
+  $('.court-next').on('click', function(){
+    if ( $('.court-shown').is(':last-child') ) {
+      jQuery.noop();
+    }
+    else {
+      $('.court-shown').removeClass('court-shown').next().addClass('court-shown');
+      $('.costume-description a').fluidbox();
+	  $('.thumb a').fluidbox();
+    }
+  });
+
+  // On click of the BACK button
+  $('.court-back').on('click', function(){
+
+    if ( $('.court-shown').is(':first-child') ) {
+		jQuery.noop();
+    }
+    else {
+      $('.court-shown').removeClass('court-shown').prev().addClass('court-shown');
     }
   });
 });

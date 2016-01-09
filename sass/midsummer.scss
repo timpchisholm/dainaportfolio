@@ -9,51 +9,117 @@
 	}
 }	
 
-/*
-@media (width: 320px) {
-	.costume-thumb {
-		margin: 0 0 2em 0;
-	}
+
+///////////// CAROUSEL ///////////////
+
+.arrow {
+	position: absolute; 
+	top: 0;            
+	bottom: 0;         
+	margin: auto;        
+	width: 40px;
+	height: auto; 
 }
 
-@media (min-width: 580px) {
-	.costume-thumb li:nth-child(-n+5){
-		display: inline-block;
-	}
+.arrow-next {
+ 	right: 5px;                  
+ 	transform: rotate(90deg); 
 }
-*/
+
+.arrow-back{
+	left: 5px;                  
+	transform: rotate(-90deg); 	
+}
+
+///////////// FAIRY CAROUSEL ///////////////
+
+.fairy-shown {       
+  display: inline-block;  
+} 
+
+.fairy-next,
+.fairy-back {
+  @extend .arrow;     
+}
+
+.fairy-next:hover,
+.fairy-back:hover {
+  cursor: pointer;
+}
+
+.fairy-next {
+	@extend .arrow-next;
+}
+
+.fairy-back {
+   @extend .arrow-back;
+}
+
+///////////// MECHANICALS CAROUSEL ///////////////
+
+.mechanicals-shown {       
+  display: inline-block;  
+}                   
+
+.mechanicals-next,
+.mechanicals-back {
+	@extend .arrow;
+}
+
+.mechancials-next:hover,
+.mechanicals-back:hover {
+  cursor: pointer;
+}
+
+.mechanicals-next {
+	@extend .arrow-next;   
+}
+
+.mechanicals-back {
+	@extend .arrow-back;  
+}
+
+///////////// COURT CAROUSEL ///////////////
+
+.court-shown {       
+  display: inline-block;  
+}                   
+
+.court-next,
+.court-back {
+	@extend .arrow;
+}
+
+.court-next:hover,
+.court-back:hover {
+  cursor: pointer;
+}
+
+.court-next {
+	@extend .arrow-next;  
+}
+
+.court-back {
+	@extend .arrow-back; 
+}
+
+
+
+
 
 @media (min-width: 768px) {
-/*
-	.costume-thumb img {
-			max-width: 7em;
-	}
 
-	.costume-thumb {
-			position: relative;
-			margin-bottom: 13em;
-	}
-
-	.fairies-thumb {
-			top: 5em;
-	}
-
-	.arrow-right {
-		bottom: 40px;
-	}	
-
-	.arrow-left {
-		bottom: 40px;
-	}
-*/
-
-/*--------------OBERON COSTUME BODY-----------*/
-
-	.the-fairies-costumes {
+	.costume-format {
 		width: 100%;
 		position: relative;
 		text-align: center;
 		margin-bottom: 8em;
+	}
+
+/*--------------OBERON COSTUME BODY-----------*/
+
+	.the-fairies-costumes {
+		@extend .costume-format;
 		.costume-description {
 			display: inline-block;
 			text-align: left;
@@ -80,10 +146,7 @@
 /*--------------MECHANICAlS COSTUME BODY-----------*/
 
 	.the-mechanicals-costumes {
-		width: 100%;
-		position: relative;
-		text-align: center;
-		margin-bottom: 8em;
+		@extend .costume-format;
 		.costume-description {
 			width: 50em;
 			display: inline-block;
@@ -111,10 +174,7 @@
 /*--------------COURT COSTUME BODY-----------*/
 
 	.the-court-costumes {
-		width: 100%;
-		position: relative;
-		text-align: center;
-		margin-bottom: 8em;
+		@extend .costume-format;
 		.costume-description {
 			width: 50em;
 			display: inline-block;
@@ -140,13 +200,5 @@
 	}
 
 }
-
-/*
-@media (min-width: 1400px) {
-	.costume-thumb li:nth-child(-n+6){
-		display: inline-block;
-	}
-}
-*/
 
 
