@@ -2,14 +2,14 @@
 @media (min-width: 400px) {
 	body {
 		font-size: 1em;
-		.thumb-container {
+	}
+	
+	.thumb-container {
 			width: 400px;
 		}
-
-		.gallery {
+	.gallery {
 			width: 400px;     
 		}
-	}
 
 }
 
@@ -54,6 +54,19 @@
 			font-size: 0.9em;
 		}
 	}
+	
+/*--------------CAROUSEL-----------*/
+	
+	.thumb-container{
+		width: 550px;
+	}
+	.gallery {
+		width: 550px;
+	}
+	.thumb {
+		width: 24%;
+	}
+
 }	
 
 
@@ -257,7 +270,9 @@
 			}
 		}
 
-	}	
+	}
+
+		
 }
 
 

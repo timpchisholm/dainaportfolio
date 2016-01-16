@@ -263,12 +263,12 @@ article {
   top: -0.31em;
   z-index: 991; }
 
+/*--------------CAROUSEL-----------*/
 .thumb-container {
   width: 320px;
   margin: 0 auto;
   position: relative; }
 
-/*--------------CAROUSEL-----------*/
 .gallery {
   width: 320px;
   padding: 50px;

@@ -10,7 +10,25 @@ $('#costume-drop').on('click', function() {
 });
 
 
+
 $(document).ready(function(){
+
+	if (window.innerWidth >=640) {
+	      $('.fairy-shown').next().addClass('fairy-shown')
+	    };
+	    
+	$(window).resize(function(){
+		var fairyItems = $('.fairy-shown').length
+			
+		if (window.innerWidth <640) {
+			if (fairyItems === 4) {
+				$('.fairy-shown:last-child').removeClass('fairy-shown');
+			};
+		};
+	});	
+		
+
+
 
   // On click of the NEXT button
   $('.fairy-next').on('click', function(){
@@ -18,7 +36,9 @@ $(document).ready(function(){
       jQuery.noop();
     }
     else {
-      $('.fairy-shown').removeClass('fairy-shown').next().addClass('fairy-shown');
+      $('.fairy-shown')
+      	.removeClass('fairy-shown')
+      	.next().addClass('fairy-shown');
       $('.costume-description a').fluidbox();
 	  $('.thumb a').fluidbox();
     }
@@ -31,7 +51,9 @@ $(document).ready(function(){
 		jQuery.noop();
     }
     else {
-      $('.fairy-shown').removeClass('fairy-shown').prev().addClass('fairy-shown');
+      $('.fairy-shown')
+      	.removeClass('fairy-shown')
+      	.prev().addClass('fairy-shown');
     }
   });
   
@@ -41,7 +63,9 @@ $(document).ready(function(){
       jQuery.noop();
     }
     else {
-      $('.mechanicals-shown').removeClass('mechanicals-shown').next().addClass('mechanicals-shown');
+      $('.mechanicals-shown')
+      	.removeClass('mechanicals-shown')
+      	.next().addClass('mechanicals-shown');
       $('.costume-description a').fluidbox();
 	  $('.thumb a').fluidbox();
     }
@@ -54,7 +78,9 @@ $(document).ready(function(){
 		jQuery.noop();
     }
     else {
-      $('.mechanicals-shown').removeClass('mechanicals-shown').prev().addClass('mechanicals-shown');
+      $('.mechanicals-shown')
+      	.removeClass('mechanicals-shown')
+      	.prev().addClass('mechanicals-shown');
     }
   });
   
@@ -64,7 +90,9 @@ $(document).ready(function(){
       jQuery.noop();
     }
     else {
-      $('.court-shown').removeClass('court-shown').next().addClass('court-shown');
+      $('.court-shown')
+      	.removeClass('court-shown')
+      	.next().addClass('court-shown');
       $('.costume-description a').fluidbox();
 	  $('.thumb a').fluidbox();
     }
@@ -77,7 +105,9 @@ $(document).ready(function(){
 		jQuery.noop();
     }
     else {
-      $('.court-shown').removeClass('court-shown').prev().addClass('court-shown');
+      $('.court-shown')
+      	.removeClass('court-shown')
+      	.prev().addClass('court-shown');
     }
   });
 });

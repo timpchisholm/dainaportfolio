@@ -1,10 +1,12 @@
 @media (min-width: 400px) {
   body {
     font-size: 1em; }
-    body .thumb-container {
-      width: 400px; }
-    body .gallery {
-      width: 400px; } }
+
+  .thumb-container {
+    width: 400px; }
+
+  .gallery {
+    width: 400px; } }
 @media (min-width: 640px) {
   strong {
     font-weight: bold; }
@@ -31,7 +33,17 @@
   .costume-description h4 {
     font-size: 1.3em; }
   .costume-description p {
-    font-size: 0.9em; } }
+    font-size: 0.9em; }
+
+  /*--------------CAROUSEL-----------*/
+  .thumb-container {
+    width: 550px; }
+
+  .gallery {
+    width: 550px; }
+
+  .thumb {
+    width: 24%; } }
 @media (min-width: 768px) {
   /*--------------TOP BAR-----------*/
   .bar-top .nav {
