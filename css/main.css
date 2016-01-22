@@ -169,32 +169,37 @@ em {
 
 /*--------------FOOTER-----------*/
 .bar-bottom {
-  background-color: #707684;
-  overflow: hidden; }
-  .bar-bottom .sitenav {
-    width: 50%;
+  overflow: hidden;
+  background-color: rgba(112, 118, 132, 0.1);
+  padding-top: 6px; }
+  .bar-bottom h4 {
+    font: 400 1em Lato, sans-serif;
     float: left;
-    line-height: 0.01em;
-    padding-left: 0.5em; }
-    .bar-bottom .sitenav li a {
-      color: white;
-      font: 100 0.8em 'Open Sans', Helvetica, sans-serif; }
+    width: 33%; }
+  .bar-bottom #footcontact {
+    float: left;
+    margin: 0;
+    width: 33%;
+    text-align: center;
+    display: none; }
+    .bar-bottom #footcontact a {
+      font: 400 0.7em Lato, sans-serif;
+      color: black; }
   .bar-bottom .socialize {
-    width: 50%;
+    width: 33%;
     float: right;
     text-align: right;
-    padding-right: 0.5em; }
-    .bar-bottom .socialize h3 {
-      color: white;
-      font: 100 1em Georgia, serif; }
+    padding-right: 0.5em;
+    display: none; }
     .bar-bottom .socialize ul {
       color: white;
       font-size: 0.8em;
       line-height: 1.5em; }
-    .bar-bottom .socialize a {
-      color: white;
-      font: 100 0.8em Georgia, serif;
-      padding: 0 0.2em; }
+      .bar-bottom .socialize ul .foot {
+        width: 2em; }
+      .bar-bottom .socialize ul li {
+        display: inline-block;
+        margin: 0 1em; }
 
 /*--------------COSTUME HEADER-----------*/
 .relativeheader {
@@ -241,8 +246,13 @@ article {
   position: relative;
   z-index: 101; }
 
+.opener {
+  position: relative; }
+
 .intro {
-  padding: 1em 1.3em; }
+  padding: 1em 1.3em;
+  font: 400 1em Lato, sans-serif;
+  max-width: 840px; }
 
 .costume-description h4 {
   font: 600 1em Georgia, serif;

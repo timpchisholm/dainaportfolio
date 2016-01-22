@@ -231,38 +231,43 @@ em {
 
 /*--------------FOOTER-----------*/
 .bar-bottom {
-	background-color: #707684;
 	overflow: hidden;
-	.sitenav {
-		width: 50%;
+	background-color: rgba(112,118,132,0.1);
+	padding-top: 6px;
+
+	h4 {
+		font: 400 1em Lato, sans-serif;
 		float: left;
-		line-height: 0.01em;
-		padding-left: 0.5em;
-		li {
-			a {
-				color: white;
-				font: 100 0.8em 'Open Sans', Helvetica, sans-serif;
-			}
+		width: 33%;
+	}
+	#footcontact {
+		float: left;
+		margin: 0;
+		width: 33%;
+		text-align: center;
+		display: none;
+		a {
+			font: 400 0.7em Lato, sans-serif;
+			color: black;
 		}
 	}
 	.socialize {
-		width: 50%;
+		width: 33%;
 		float: right;
 		text-align: right;
 		padding-right: 0.5em;
-		h3 {
-			color: white;
-			font: 100 1em Georgia, serif; 
-		}
+		display: none;
 		ul {
 			color: white;
 			font-size: 0.8em;
 			line-height: 1.5em;
-		}
-		a {
-			color: white;
-			font: 100 0.8em Georgia, serif;
-			padding: 0 0.2em;
+			.foot {
+				width: 2em;
+			}
+			li {
+				display: inline-block;
+				margin: 0 1em;
+			}
 		}
 	}	
 }
@@ -319,8 +324,13 @@ article {
 	z-index: 101;
 }
 
+.opener {
+	position: relative;
+}
 .intro {
 	padding: 1em 1.3em;
+	font: 400 1em Lato, sans-serif;
+	max-width: 840px;
 }
 
 .costume-description {

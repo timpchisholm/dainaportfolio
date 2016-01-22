@@ -9,6 +9,15 @@
 	}
 }	
 
+/////////////// BODY //////////////////
+
+.dream-d {
+	font: 900 11em Lato, sans-serif;
+	color: rgba(30, 150, 195, .2);
+	position: absolute;
+	top: -1.2em;
+	left: -0.44em;
+}
 
 ///////////// CAROUSEL ///////////////
 
@@ -138,14 +147,19 @@
 				left: -30em;
 				top: 3em;
 				width: 16em;
-
 			}	
+		}
+		.thumb-container {
+			top: 1em;
+			margin-top: 2em;
+			margin-bottom: 4em;
 		}
 	}
 
 /*--------------MECHANICAlS COSTUME BODY-----------*/
 
 	.the-mechanicals-costumes {
+		margin-bottom: 3em;	
 		@extend .costume-format;
 		.costume-description {
 			width: 50em;
@@ -168,6 +182,9 @@
 				width: 26em;
 
 			}	
+		}
+		.thumb-container {
+			top: -3em;
 		}
 	}
 
@@ -196,6 +213,9 @@
 				width: 26em;
 
 			}	
+		}
+		.thumb-container {
+			top: -3em;
 		}
 	}
 

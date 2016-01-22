@@ -46,6 +46,15 @@
 	}
 
 /*--------------COSTUME BODY-----------*/
+	.dream-d {
+		left: -0.38em;
+	}
+	
+	.intro {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	
 	.costume-description {
 		h4 {
 			font-size: 1.3em;
@@ -119,6 +128,10 @@
 	}
 
 /*--------------COSTUME BODY-----------*/
+	.dream-d{
+		top: -1.2em;
+		left: -0.33em;
+	}
 
 	.intro {
 		font-size: 1.2em;
@@ -141,7 +154,15 @@
 			}
 		}
 	}
-
+	
+	.bar-bottom {
+		#footcontact{
+			display: block;
+		}
+		.socialize {
+			display: block;
+		}
+	}
 
 
 }
@@ -183,33 +204,6 @@
 		top: 3.8em;
 		margin-bottom: 5em;
 	}	
-
-	.costumesnav {
-		width: 15%;
-		float: left;
-		display: block;
-		padding-bottom: 2em;
-		z-index: 0;
-		border-bottom: 0.1em solid black;
-		box-shadow: none;
-		h2 {
-			display: block;
-			margin-top: 1em;
-			margin-bottom: 1em;
-			text-align: center;
-			color: black;
-			text-transform: uppercase;
-			font-size: 100 1.5em 'Open Sans', Helvetica, sans-serif;
-		}
-		li {
-			display: block;
-			text-align: left;
-			margin-left: 1em;
-			margin-right: 1em;
-			padding: 0.4em 0.2em;
-
-		}
-	}
 		
 	.article {
 		width: 85%;
@@ -223,7 +217,11 @@
 				}
 			}	
 	}	
-		
+	
+	.opener {
+		left: 2em;
+	}	
+	
 	.footer {
 		width: 15%;
 		float: left;
@@ -271,7 +269,15 @@
 		}
 
 	}
-
+	
+	.bar-bottom {
+		#footcontact a {
+			font-size: 1em;
+		}
+		.socialize ul li {
+			margin: 0 3em;
+		}
+	}
 		
 }
 
@@ -297,12 +303,31 @@
 		float: none;
 	}
 	.costumesnav {
+		display: block;
+		box-shadow: none;
 	    float: right;
 	    top: 4.8em;
 	    border-bottom: none;
 	    position: fixed;
 	    right: calc(50% - 850px + 160px);
 	    width: auto;
+	    h2 {
+			display: block;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			text-align: center;
+			color: black;
+			text-transform: uppercase;
+			font-size: 100 1.5em 'Open Sans', Helvetica, sans-serif;
+		}
+		li {
+			display: block;
+			text-align: left;
+			margin-left: 1em;
+			margin-right: 1em;
+			padding: 0.4em 0.2em;
+
+		}
 	}
 
 	.article {
@@ -312,9 +337,11 @@
 		}
 
 	.footer {
+		float: left;
 		top: 5.8em;
     	position: fixed;
-    	left: calc(50% - 850px + 100px);
+    	left: calc(50% - 850px + 180px);
+    	width: auto;
 		.contactlink {
 			li {
 				display: block;

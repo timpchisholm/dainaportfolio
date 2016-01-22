@@ -5,7 +5,7 @@ $('.thumb a').fluidbox();
 	//Allow the Costume Navigation to act as a dropdown
 	//only when the window is less than 1024px
 $('#costume-drop').on('click', function() {
-		if (window.innerWidth <= 1023){
+		if (window.innerWidth <= 1400){
 			$('.costumesnav').slideToggle(100);
 		}
 });

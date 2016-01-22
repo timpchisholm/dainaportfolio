@@ -5,6 +5,13 @@
   .costume-description #oberon-back img {
     padding: 0 1em 0 1em; }
 
+.dream-d {
+  font: 900 11em Lato, sans-serif;
+  color: rgba(30, 150, 195, 0.2);
+  position: absolute;
+  top: -1.2em;
+  left: -0.44em; }
+
 .arrow, .fairy-next,
 .fairy-back, .mechanicals-next,
 .mechanicals-back, .court-next,
@@ -69,25 +76,33 @@
       left: -30em;
       top: 3em;
       width: 16em; }
+  .the-fairies-costumes .thumb-container {
+    top: 1em;
+    margin-top: 2em;
+    margin-bottom: 4em; }
 
   /*--------------MECHANICAlS COSTUME BODY-----------*/
-  .the-mechanicals-costumes .costume-description {
-    width: 50em;
-    display: inline-block;
-    text-align: left; }
-    .the-mechanicals-costumes .costume-description #mechanicals-line {
-      float: left;
-      position: relative;
-      left: 2em;
-      width: 66%; }
-      .the-mechanicals-costumes .costume-description #mechanicals-line img {
-        max-width: 45em; }
-    .the-mechanicals-costumes .costume-description .mechanicals-description {
-      float: left;
-      position: relative;
-      left: 5em;
-      top: -2.5em;
-      width: 26em; }
+  .the-mechanicals-costumes {
+    margin-bottom: 3em; }
+    .the-mechanicals-costumes .costume-description {
+      width: 50em;
+      display: inline-block;
+      text-align: left; }
+      .the-mechanicals-costumes .costume-description #mechanicals-line {
+        float: left;
+        position: relative;
+        left: 2em;
+        width: 66%; }
+        .the-mechanicals-costumes .costume-description #mechanicals-line img {
+          max-width: 45em; }
+      .the-mechanicals-costumes .costume-description .mechanicals-description {
+        float: left;
+        position: relative;
+        left: 5em;
+        top: -2.5em;
+        width: 26em; }
+    .the-mechanicals-costumes .thumb-container {
+      top: -3em; }
 
   /*--------------COURT COSTUME BODY-----------*/
   .the-court-costumes .costume-description {
@@ -106,6 +121,8 @@
       position: relative;
       left: 18em;
       top: -2.5em;
-      width: 26em; } }
+      width: 26em; }
+  .the-court-costumes .thumb-container {
+    top: -3em; } }
 
 /*# sourceMappingURL=midsummer.css.map */
