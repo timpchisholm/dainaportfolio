@@ -81,6 +81,71 @@
   .costumesnav {
     text-align: center; }
 
+  /*--------------CONTACT BAR-----------*/
+  .footer {
+    position: fixed;
+    float: right;
+    top: 3.8em;
+    right: -1.5px;
+    width: 2.1em;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 102; }
+    .footer h3 {
+      display: none; }
+    .footer .contactlink {
+      text-align: center;
+      margin: 0; }
+      .footer .contactlink a {
+        color: black; }
+      .footer .contactlink li {
+        display: block;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000; }
+      .footer .contactlink .icon {
+        width: 2em;
+        line-height: 1em; }
+      .footer .contactlink .em {
+        height: 2em;
+        width: 2em;
+        border-right: none;
+        padding: 0;
+        position: static;
+        top: 0;
+        background-image: url("../img/email.png");
+        background-size: 2em;
+        background-repeat: no-repeat;
+        background-position: 50%; }
+      .footer .contactlink .em:hover {
+        background-image: url("../img/email-hover.png"); }
+      .footer .contactlink .tw {
+        background-image: url("../img/twitter.png");
+        background-size: 2em;
+        background-repeat: no-repeat; }
+      .footer .contactlink .tw:hover {
+        background-image: url("../img/twitter-hover.png"); }
+      .footer .contactlink .fb {
+        background-image: url("../img/facebook.png");
+        background-size: 2em;
+        background-repeat: no-repeat; }
+      .footer .contactlink .fb:hover {
+        background-image: url("../img/facebook-hover.png"); }
+      .footer .contactlink .ig {
+        background-image: url("../img/instagram.png");
+        background-size: 2em;
+        background-repeat: no-repeat; }
+      .footer .contactlink .ig:hover {
+        background-image: url("../img/instagram-hover.png"); }
+      .footer .contactlink .phone {
+        background-image: url("../img/phone.png");
+        background-size: 2em;
+        border-top: 1px solid #000000;
+        background-repeat: no-repeat;
+        display: block; }
+      .footer .contactlink .phone:hover {
+        background-image: url("../img/phone-hover.png"); }
+      .footer .contactlink #phonenumber {
+        display: none; }
+
   /*--------------COSTUME BODY-----------*/
   .dream-d {
     top: -1.2em;
@@ -128,69 +193,32 @@
     top: 3.8em;
     margin-bottom: 5em; }
 
-  .article {
-    width: 85%;
-    float: right; }
-    .article .relativeheader {
-      padding: 0; }
-      .article .relativeheader .costumes {
-        left: 0;
-        font-size: 7.6vw;
-        height: 31%; }
+  .footer {
+    top: 5em; }
 
   .opener {
     left: 2em; }
-
-  .footer {
-    width: 15%;
-    float: left; }
-    .footer h3 {
-      display: none; }
-    .footer .contactlink li {
-      display: block;
-      margin: 0.5em auto; }
-    .footer .contactlink .icon {
-      width: 5em; }
-    .footer .contactlink .em {
-      height: inherit;
-      border-right: none;
-      border-left: none;
-      border-top: 0.1em solid black;
-      border-bottom: 0.1em solid black;
-      padding: 1em 0;
-      position: static;
-      top: 0;
-      background-size: 5em; }
-    .footer .contactlink .tw {
-      background-size: 5em; }
-    .footer .contactlink .fb {
-      background-size: 5em; }
-    .footer .contactlink .ig {
-      background-size: 5em; }
-    .footer .contactlink .phone {
-      display: block;
-      margin-bottom: 1em;
-      background-size: 5em; }
-    .footer .contactlink #phonenumber {
-      position: static;
-      padding: 0 0 1em 0; }
 
   .bar-bottom #footcontact a {
     font-size: 1em; }
   .bar-bottom .socialize ul li {
     margin: 0 3em; } }
 @media (min-width: 1400px) {
-  .container {
-    max-width: 1400px; }
-
   .main {
-    max-width: 1400px; }
+    max-width: 1464px; }
 
   .article .relativeheader .costumes {
-    font-size: 5.5em; }
+    font-size: 8.3em; }
 
   .footer {
-    float: none; }
+    float: left;
+    left: 0;
+    top: 10em; }
+    .footer .contactlink .em {
+      border-right: 1px solid #000000; }
+    .footer li {
+      border-left: 0;
+      border-right: 1px solid #000000; }
 
   .costumesnav {
     display: block;
@@ -214,33 +242,6 @@
       text-align: left;
       margin-left: 1em;
       margin-right: 1em;
-      padding: 0.4em 0.2em; }
-
-  .article {
-    width: 70%;
-    position: relative;
-    right: 15em; }
-
-  .footer {
-    float: left;
-    top: 5.8em;
-    position: fixed;
-    left: calc(50% - 850px + 180px);
-    width: auto; }
-    .footer .contactlink li {
-      display: block;
-      margin: 0.5em auto; }
-    .footer .contactlink .icon {
-      width: 4em; }
-    .footer .contactlink .em {
-      background-size: 4em; }
-    .footer .contactlink .tw {
-      background-size: 4em; }
-    .footer .contactlink .fb {
-      background-size: 4em; }
-    .footer .contactlink .ig {
-      background-size: 4em; }
-    .footer .contactlink .phone {
-      background-size: 4em; } }
+      padding: 0.4em 0.2em; } }
 
 /*# sourceMappingURL=responsive.css.map */

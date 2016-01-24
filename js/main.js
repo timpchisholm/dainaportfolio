@@ -7,6 +7,7 @@ $('.thumb a').fluidbox();
 $('#costume-drop').on('click', function() {
 		if (window.innerWidth <= 1400){
 			$('.costumesnav').slideToggle(100);
+			$('footer').toggleClass("none");
 		}
 });
 

@@ -54,6 +54,10 @@ em {
 	margin: 0 auto;
 }
 
+.none {
+	display: none;
+}
+
 /*--------------TOP BAR-----------*/
 	.bar-top {
 		background-color: #707684;
@@ -88,6 +92,7 @@ em {
 					text-transform: uppercase;
 					padding: 0 0.2em;
 					border-bottom: 0.2em solid #ed1c24;
+					cursor: pointer;
 				}
 				li {
 					display: inline-block;
